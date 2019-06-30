@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\BasicCode.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{EED84752-A72E-41D9-9508-651CE41954FC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BasicCode.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\BasicCodeEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{2989A371-D2AA-4BFB-A72F-F87C26BC2A0C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\BasicCode">
+      <UniqueIdentifier>{87D0E04F-49BF-4D44-82D2-F526E25F7DBC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BasicCode\BasicCode.Build.cs">
+      <Filter>Source\BasicCode</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\BasicCode\BasicCode.cpp">
+      <Filter>Source\BasicCode</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicCode\BasicCode.h">
+      <Filter>Source\BasicCode</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BasicCode\BasicCodeGameModeBase.cpp">
+      <Filter>Source\BasicCode</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicCode\BasicCodeGameModeBase.h">
+      <Filter>Source\BasicCode</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

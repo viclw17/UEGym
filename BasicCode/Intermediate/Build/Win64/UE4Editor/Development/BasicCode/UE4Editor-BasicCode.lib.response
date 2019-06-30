@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-BasicCode.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Git\UEGym\BasicCode\Intermediate\Build\Win64\BasicCodeEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\Git\UEGym\BasicCode\Intermediate\Build\Win64\UE4Editor\Development\BasicCode\BasicCode.cpp.obj"
+"D:\Git\UEGym\BasicCode\Intermediate\Build\Win64\UE4Editor\Development\BasicCode\BasicCodeGameModeBase.cpp.obj"
+"D:\Git\UEGym\BasicCode\Intermediate\Build\Win64\UE4Editor\Development\BasicCode\BasicCode.init.gen.cpp.obj"
+"D:\Git\UEGym\BasicCode\Intermediate\Build\Win64\UE4Editor\Development\BasicCode\BasicCodeGameModeBase.gen.cpp.obj"
+"D:\Git\UEGym\BasicCode\Intermediate\Build\Win64\UE4Editor\Development\BasicCode\Default.rc2.res"
+/OUT:"D:\Git\UEGym\BasicCode\Intermediate\Build\Win64\UE4Editor\Development\BasicCode\UE4Editor-BasicCode.lib"
+/INCLUDE:IMPLEMENT_MODULE_BasicCode
