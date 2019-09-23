@@ -1,0 +1,109 @@
+#define NUM_STEPS 200
+#define NUM_NOISE_OCTAVES 4
+
+#define HEIGHT_OFFSET 1.5
+
+#define USE_TEXTURE false
+#define WHITE_NOISE_GRID_SIZE 256.0
+
+#define HASHSCALE1 443.8975
+
+#if 0
+//  1 out, 2 in...
+float Noise(float3 p)
+{
+	float3 p3  = frac(p.xyz * HASHSCALE1);
+    p3 += dot(p3, p3.yzx + 19.19);
+    return frac((p3.x + p3.y) * p3.z);
+}
+#endif
+
+float hash(float3 p)
+{
+    p = frac(p * 0.3183099 + 0.1);
+    p *= 17.0;
+    return frac(p.x * p.y * p.z * (p.x + p.y + p.z));
+}
+
+float Noise(in float3 x)
+{
+    float3 p = floor(x);
+    float3 f = frac(x);
+    f = f * f * (3.0 - 2.0 * f);
+
+    return lerp(lerp(lerp( hash(p + float3(0,0,0)), 
+                        hash(p + float3(1,0,0)),f.x),
+                   lerp( hash(p + float3(0,1,0)), 
+                        hash(p + float3(1,1,0)),f.x),f.y),
+               lerp(lerp( hash(p + float3(0,0,1)), 
+                        hash(p + float3(1,0,1)),f.x),
+                   lerp( hash(p + float3(0,1,1)), 
+                        hash(p + float3(1,1,1)),f.x),f.y),f.z);
+}
+
+// NOTE: the bilinear interpolation is important! without it, the clouds look blocky.
+// You can see this by returning noise00 or by having the texture use the "nearest" filter
+float BilinearInterpolateWhiteNoise (float3 uv)
+{
+    uv = frac(uv);
+    
+    float3 uvPixels = uv * WHITE_NOISE_GRID_SIZE;
+    
+    float3 uvFrac = uvPixels - floor(uvPixels);
+    
+    float3 uvDiscreteFloor = floor(uvPixels) / WHITE_NOISE_GRID_SIZE;
+    float3 uvDiscreteCeil = ceil(uvPixels) / WHITE_NOISE_GRID_SIZE;
+    
+    float noise00 = Noise(float3(uvDiscreteFloor.x, uvDiscreteFloor.y, uvDiscreteFloor.z));
+    float noise01 = Noise(float3(uvDiscreteFloor.x, uvDiscreteCeil.y ,uvDiscreteCeil.z));
+    float noise10 = Noise(float3(uvDiscreteCeil.x , uvDiscreteFloor.y, uvDiscreteFloor.z));
+    float noise11 = Noise(float3(uvDiscreteCeil.x , uvDiscreteCeil.y, uvDiscreteCeil.z));
+    
+    float noise0_ = lerp(noise00, noise01, uvFrac.y);
+    float noise1_ = lerp(noise10, noise11, uvFrac.z);
+    float noise2_ = lerp(noise10, noise11, uvFrac.x);
+    
+    float noise = lerp(lerp(noise0_, noise1_, uvFrac.x), noise2_, uvFrac.y);
+
+    return noise;
+}
+
+float RandomNumber (in float3 position)
+{
+    // NOTE: the ceil here is important interestingly. it makes the clouds look round and puffy instead of whispy in a glitchy way
+    float3 uv = (position.yzx + ceil(position.x)) / float(NUM_STEPS);
+    
+    //return BilinearInterpolateWhiteNoise(uv);
+    return Noise(position);
+}
+
+float4 mainImage(float2 fragCoord, float2 iResolution, float iTime, float3 rd, float3 ro, float3 wpos)
+{
+    float4 fragColor = float4(1,1,1,1);
+
+    float3 direction = rd;
+    //float3 direction = float3(0.8, fragCoord - 0.8);
+
+    float3 skyColor = float3(0.6, 0.7, 0.8);
+    float3 pixelColor = skyColor;
+
+    for (int rayStep = 0; rayStep < NUM_STEPS; rayStep++)
+    {
+        float3 position = 0.05 * float(NUM_STEPS - rayStep) * direction + ro * 0.001;
+        position.xy += iTime;
+        float noiseScale = 0.5;
+        float signedCloudDistance = position.z + HEIGHT_OFFSET;
+        for (int octaveIndex = 0; octaveIndex < NUM_NOISE_OCTAVES; ++octaveIndex)
+        {
+            position *= 2.0;
+            noiseScale *= 1.6;
+            signedCloudDistance -= RandomNumber(position) / noiseScale;
+        }
+        if (signedCloudDistance < 0.0)
+            pixelColor += (pixelColor - 1.0 - signedCloudDistance * skyColor.zyx) * signedCloudDistance * 0.4;
+	}
+    
+    fragColor.rgb = pixelColor;
+    fragColor.a = 1.0;
+    return fragColor;
+}

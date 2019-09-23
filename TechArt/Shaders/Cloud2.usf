@@ -1,0 +1,102 @@
+#define Marching_Steps 136
+#define Marching_Size 20000.0f
+#define Marching_Box_Scale 200000.0f
+#define MarchingSizeReScale 1.2f
+#define GlobalCoverage 0.9f
+#define M_PI 3.141592f;
+
+#define SunDir float3(1, 1, 1)
+#define BeerTerm 0.5f
+#define InScatter 0.6f
+#define OutScatter 0.7f
+#define ExtraEdgeInt 0.5f
+#define ExtraEdgeExp 1.2f
+#define MixScatter 0.5f
+
+float remap(float V, float L0, float H0, float Ln, float Hn)
+{
+    return Ln + (V - L0) * (Hn - Ln) / (H0 - L0);
+}
+
+float3 ScaleWorldSpaceToTextureSpace(float3 WorldSapcePosition, float3 actorpos)
+{
+    return ((WorldSapcePosition - actorpos) / (Marching_Box_Scale * 100) * MarchingSizeReScale) + 0.5f;
+}
+
+float HenyeyGreenstein(float cos_angle, float g)
+{
+    float g2 = g * g;
+    return ((1.0f - g2) / pow((1.0f + g2 - 2.0f * g * cos_angle), 1.5f)) / 4 * M_PI;
+}
+
+float GetDensity(float3 raypos, float3 actorpos, Texture2D WeatherTex, SamplerState WeatherTexsampler2D,
+Texture3D weathernoisetex, SamplerState weathernoisetexSampler, Texture3D weathercloudtex, SamplerState weathercloudtexSampler)
+{
+	//Marching in tangent space
+    raypos = ScaleWorldSpaceToTextureSpace(raypos, actorpos);
+	//The density of cloud
+    float density = 0;
+
+    float3 WeatherData = WeatherTex.SampleLevel(WeatherTexsampler2D, raypos.xy, 0).rgb;
+    float HeightScale = WeatherTex.SampleLevel(WeatherTexsampler2D, raypos.zz, 0).a;
+    HeightScale = saturate(remap(HeightScale, 0, 0.07, 0, 1));
+    float cloudcover = WeatherData.r;
+
+    float4 LowFrecNoise = weathernoisetex.SampleLevel(weathercloudtexSampler, frac(raypos * 10), 0);
+    float lowfreqFBM = LowFrecNoise.g * 0.625f + LowFrecNoise.b * 0.25f + LowFrecNoise.a * 0.125f;
+    float cloudbase = saturate(remap(LowFrecNoise.r, -(1 - lowfreqFBM), 1, 0, 1));
+
+    cloudcover = pow(cloudcover, saturate(remap(0.5, 0.65, 0.95, 1, GlobalCoverage)));
+    float basecloudcolver = saturate(remap(cloudbase, 1 - cloudcover, 1, 0, 1));
+
+    float3 highFreqNoise = weathercloudtex.SampleLevel(weathernoisetexSampler, frac(raypos * 20), 0);
+    float highFreqFBM = (highFreqNoise.r * 0.625f) + (highFreqNoise.g * 0.25f) + (highFreqNoise.b * 0.125f);
+    float highFreqNoiseModifier = saturate(remap(highFreqNoise.r, highFreqFBM, 1 - highFreqFBM, 0, 1));
+    highFreqNoiseModifier *= 0.35 * exp(-GlobalCoverage * 0.75);
+
+    density = saturate(remap(basecloudcolver, highFreqFBM, 1, 0, 1)) * HeightScale;
+    //density = cloudcover * HeightScale;
+
+    return density;
+}
+
+float4 mainImage(float2 viewsize, float time, float3 ro, float3 actorpos, float3 wpos, Texture2D weathertex, SamplerState weathertexSampler, Texture3D weathernoisetex, SamplerState weathernoisetexSampler, Texture3D weathercloudtex, SamplerState weathercloudtexSampler, float4 DebugData)
+{
+    float4 finalcol = float4(0, 0, 0, 0);
+    float3 rd = normalize(wpos - ro);
+    float3 raypos = ro;
+
+    float cos_angle = dot(SunDir, rd);
+
+    float density = 0.0f;
+    float sundensity = 0.0f;
+    for (int i = 0; i < Marching_Steps; i++)
+    {
+        density += GetDensity(raypos, actorpos, weathertex, weathertexSampler, weathernoisetex, weathernoisetexSampler, weathercloudtex, weathercloudtexSampler);
+
+		if(density > 0.001f)
+        {
+            float3 sundenspos = raypos;
+            for (int j = 0; j < 6; j++)
+            {
+                sundensity += GetDensity(sundenspos, actorpos, weathertex, weathertexSampler, weathernoisetex, weathernoisetexSampler, weathercloudtex, weathercloudtexSampler);
+
+                sundenspos += SunDir * Marching_Size;
+            }
+        }
+
+        raypos += rd * Marching_Size * exp(0.015 * i);
+    }
+
+    float edgeLEx = ExtraEdgeInt * pow(saturate(cos_angle), ExtraEdgeExp);
+    float scatter = lerp(max(HenyeyGreenstein(cos_angle, InScatter), edgeLEx), HenyeyGreenstein(cos_angle, -OutScatter), MixScatter);
+
+    float AttenPrim = exp(-BeerTerm * sundensity);
+
+    finalcol.r = density;
+    finalcol.g = sundensity * AttenPrim;
+
+    return finalcol;
+}
+
+//return  mainImage(viewsize, time, ro, actorpos, wpos, weathertex, weathertexSampler, weathernoisetex, weathernoisetexSampler, weathercloudtex, weathercloudtexSampler,  DebugData);
