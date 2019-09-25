@@ -1,0 +1,247 @@
+float hash(float3 p){
+p = frac(p * 0.3183099 + 0.1);
+p *= 17.0;
+return frac(p.x * p.y * p.z * (p.x + p.y + p.z));
+}
+
+float Noise(in float3 x){
+float3 p = floor(x);
+float3 f = frac(x);
+f = f * f * (3.0 - 2.0 * f);
+return lerp(lerp(lerp( hash(p + float3(0,0,0)),
+                       hash(p + float3(1,0,0)),f.x),
+                 lerp( hash(p + float3(0,1,0)),
+                       hash(p + float3(1,1,0)),f.x),f.y),
+            lerp(lerp( hash(p + float3(0,0,1)),
+                       hash(p + float3(1,0,1)),f.x),
+                 lerp( hash(p + float3(0,1,1)),
+                       hash(p + float3(1,1,1)),f.x),f.y),f.z);
+}
+
+float map5(in float3 p){
+float3 q = p;
+float f = 0.0f;
+f  = 0.50000 * Noise( q );
+q = q * 2.02;
+f += 0.25000 * Noise( q );
+q = q * 2.03;
+f += 0.12500 * Noise( q );
+q = q * 2.01;
+f += 0.06250 * Noise( q );
+q = q * 2.02;
+f += 0.03125 * Noise( q );
+return clamp(f, 0.0, 1.0);
+}
+
+float map3( in float3 p ){
+float3 q = p;
+float f = 0.0f;
+f  = 0.50000 * Noise( q );
+q = q * 2.02;
+f += 0.25000 * Noise( q );
+q = q * 2.03;
+f += 0.12500 * Noise( q );
+return clamp(f, 0.0, 1.0);
+}
+
+float remap(float V, float L0, float H0, float Ln, float Hn){
+return Ln + (V - L0) * (Hn - Ln) / (H0 - L0);
+}
+
+float3 ScaleWorldSpaceToTextureSpace(float3 WorldSapcePosition, float3 actorpos){
+float Marching_Box_Scale = 5000.0f;
+float MarchingSizeReScale = 1.0f;
+return ((WorldSapcePosition - actorpos) / (Marching_Box_Scale * 100) * MarchingSizeReScale) + 0.5f;
+}
+
+float HG(float cos_angle, float g){
+float g2 = g * g;
+float val = (1 - g2) / (pow((1 + g2 - 2 * g * cos_angle), 1.5) * (4 * 3.1415927));
+return val;
+}
+
+float InOutScater(float cos_angle, float SunDensity){
+float cloud_inscatter = 0.8f;
+float cloud_silver_intensity = 10.0f;
+float cloud_silver_exponent = 0.5f;
+float cloud_outscatter = 0.6f;
+float cloud_in_vs_outscatter = 0.5f;
+
+float first_hg = HG(cos_angle, cloud_inscatter);
+float second_hg = cloud_silver_intensity * HG(cos_angle, cloud_inscatter) * exp(-0.8 * SunDensity);
+float in_scatter_hg = max(first_hg, second_hg);
+float out_scatter_hg = HG(cos_angle, -cloud_outscatter);
+return lerp(in_scatter_hg, out_scatter_hg, cloud_in_vs_outscatter);
+}
+
+float Attenuation(float DensityToSun, float cos_angle, float BeerTerm){
+float CouldAttuentionClampVal = 0.8;
+float prim = exp(-BeerTerm * DensityToSun);
+float scnd = exp(-BeerTerm * CouldAttuentionClampVal) * 0.7;
+
+float checkVal = remap(cos_angle, 0, 1, 0, scnd * 0.5);
+
+return max(checkVal, prim);
+}
+
+float GetDensity(
+float3 raypos,
+float3 actorpos,
+Texture2D WeatherTex,
+SamplerState WeatherTexsampler2D,
+Texture3D NoiseTex,
+SamplerState NoiseTexSampler,
+Texture3D DetailNoiseTex,
+SamplerState DetailNoiseTexSampler,
+float time
+){
+float Density = 0.01;
+float2 speed = time * 0.001;
+
+float ActorMax = 5000.0f;
+float ActorMin = 2000.0f;
+float HeightGradient = clamp(raypos.z - ActorMin, 0, ActorMax) / (ActorMax);
+
+raypos = ScaleWorldSpaceToTextureSpace(raypos, actorpos);
+
+//Texture Tiles
+float LowFreqNoiseScale = 70;
+float HighFreqNoiseScale = 100;
+float WeatherTextureScale = 1.5;
+float CloudPeakDataOffset = 0.01;
+
+float3 WeatherData = WeatherTex.SampleLevel(WeatherTexsampler2D, raypos.xy * WeatherTextureScale, 0).rgb;
+float LowCoverage = WeatherData.r;
+float HighCoverage = WeatherData.g;
+float CloudPeakData = WeatherData.b;
+float CoudWeatherNoiseHigh = WeatherData.g;
+
+float ShapeAltering = saturate(remap(HeightGradient, 0, 0.07, 0, 1)) * saturate(remap(HeightGradient, WeatherData.b * 0.2, WeatherData.b, 1, 0));
+ShapeAltering *= CloudPeakData * (1 + CloudPeakDataOffset);
+
+float4 LowFrecNoise = NoiseTex.SampleLevel(NoiseTexSampler, frac(raypos * LowFreqNoiseScale), 0);
+float lowfreqFBM = LowFrecNoise.r * 0.7f + LowFrecNoise.g * 0.3f;
+float lowfreqFBMSec = LowFrecNoise.b * 0.6f + LowFrecNoise.a * 0.4f;
+lowfreqFBM = smoothstep(0.5, 0.55, lowfreqFBM);
+lowfreqFBM = lerp(lowfreqFBM, 1 - lowfreqFBM, HeightGradient);
+lowfreqFBM = remap(lowfreqFBM, (1 - lowfreqFBMSec) * 0.5, 1, 0, 1);
+
+float4 HighFrecNoise = NoiseTex.SampleLevel(NoiseTexSampler, frac(raypos * HighFreqNoiseScale), 0);
+float HighfreqFBM = HighFrecNoise.r * 0.5f + HighFrecNoise.g * 0.25f + HighFrecNoise.b * 0.125f + HighFrecNoise.a * 0.064f;
+HighfreqFBM = smoothstep(0.5, 0.55, HighfreqFBM);
+
+LowCoverage = smoothstep(0.15, 0.85, LowCoverage);
+HighCoverage = smoothstep(0.15, 0.85, HighCoverage);
+ShapeAltering = smoothstep(0.01, 0.75, ShapeAltering);
+
+float Coverage = max(LowCoverage, saturate(LowCoverage.r - 0.5) * 2 * HighCoverage);
+float shape = remap(lowfreqFBM, HighfreqFBM - 1, 1, 0, 1) * Coverage;
+shape = smoothstep(0.3, 0.65, shape);
+
+Density = ShapeAltering * shape;// * HeightScale;
+
+return Density;
+}
+
+float4 MainImage(
+FMaterialPixelParameters Parameters,
+Texture2D WeatherMap,
+SamplerState WeatherMapSampler,
+Texture3D NoseTex,
+SamplerState NoseTexSampler,
+Texture3D DetailNoiseTex,
+SamplerState DetailNoiseTexSampler
+)
+{
+float time = View.GameTime;
+float2 ViewSize = View.ViewSizeAndInvSize.xy;
+float3 ro = ResolvedView.WorldCameraOrigin;
+float3 actorpos = GetActorWorldPosition(Parameters.PrimitiveId);
+float3 wpos = GetWorldPosition(Parameters);
+float SceneDepth = CalcSceneDepth(ScreenAlignedPosition(GetScreenPosition(Parameters))).r;
+
+float4 Output = float4(0, 0, 0, 0);
+float3 rd = normalize(wpos - ro);
+float3 raypos = ro;
+
+float MaxDistance = 100000.0f;
+float PerStepSize = 10.0f;
+int Marching_Steps = 256;
+int Sun_Marching_Steps = 8;
+float Marching_Size = MaxDistance / Marching_Steps;
+float3 SunDir = normalize(float3(0.2, 0.2, 1));
+float BeerTerm = 0.6f;
+
+float density = 0;
+float SunDensity = 0;
+float MarchingDepth = 0;
+for(int step = 0; step < Marching_Steps; step++)
+{
+    density += GetDensity(raypos,
+                          actorpos,
+                          WeatherMap,
+                          WeatherMapSampler,
+                          NoseTex,
+                          NoseTexSampler,
+                          DetailNoiseTex,
+                          DetailNoiseTexSampler,
+                          time
+                        );
+    if(density > 0.001f)
+    {
+        float3 SunDensPos = raypos;
+
+        for(int SunStep = 0; SunStep < Sun_Marching_Steps; SunStep++)
+        {
+             SunDensity += GetDensity(
+                                 SunDensPos,
+                                 actorpos,
+                                 WeatherMap,
+                                 WeatherMapSampler,
+                                 NoseTex,
+                                 NoseTexSampler,
+			     DetailNoiseTex,
+			     DetailNoiseTexSampler,
+                                 time
+                                );
+
+            SunDensPos += SunDir * PerStepSize * exp(0.02 * step) * map3(SunDensPos);
+        }
+    }
+
+    if(density > 1)
+        break;
+
+
+    float CurStepSize = PerStepSize * exp(0.02 * step) * map3(raypos);
+    raypos += rd * CurStepSize;
+    MarchingDepth += CurStepSize;
+
+    if (MarchingDepth >= SceneDepth)
+        break;
+
+}
+
+float cos_angle = dot(rd, SunDir);
+
+float AttenPrim = Attenuation(SunDensity, cos_angle, BeerTerm);
+density = saturate(density);
+Output.rgb = AttenPrim * InOutScater(cos_angle, SunDensity);
+
+Output.a = density;
+
+// return Output;
+return float4(1,0,0,1);
+}
+
+
+/*
+return MainImage(
+    Parameters,
+    WeatherMap,
+    WeatherMapSampler,
+    NoseTex,
+    NoseTexSampler,
+    DetailNoiseTex,
+    DetailNoiseTexSampler
+);*/

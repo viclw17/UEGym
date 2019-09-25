@@ -18,4 +18,4 @@ for (int x = -Radius; x <= Radius; x++)
 }
 
 return PixelSum / WeightSum;
-
+//return float3(1,0,0);
