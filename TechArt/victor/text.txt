@@ -1,0 +1,34 @@
+
+static const int SceneTextureId = 14;
+float2 TexelSize = View.ViewSizeAndInvSize.zw;
+float2 UV = GetDefaultSceneTextureUV(Parameters, SceneTextureId);
+float3 PixelSum = float3(0, 0, 0);
+float WeightSum = 0;
+
+Here is what each variable is for:
+
+SceneTextureId: Holds the index of the scene texture you want to sample. This is so you don’t have to hard code the index into the function calls. In this case, the index is for Post Process Input 0.
+TexelSize: Holds the size of a texel. Used to convert offsets into UV space.
+UV: The UV for the current pixel
+PixelSum: Used to accumulate the color of each pixel in the kernel
+WeightSum: Used to accumulate the weight of each pixel in the kernel
+Next, you need to create two for loops. One for the vertical offsets and one for the horizontal. Add the following below the variable list:
+
+Conceptually, this will create a grid centered on the current pixel. The dimensions are given by 2r + 1. For example, if the radius is 2, the dimensions would be (2 * 2 + 1) by (2 * 2 + 1) or 5×5.
+
+Next, you need to accumulate the pixel colors and weights. To do this, add the following inside the inner for loop:
+
+float2 Offset = UV + float2(x, y) * TexelSize;
+float3 PixelColor = SceneTextureLookup(Offset, SceneTextureId, 0).rgb;
+float Weight = Calculate1DGaussian(x / Radius) * Calculate1DGaussian(y / Radius);
+PixelSum += PixelColor * Weight;
+WeightSum += Weight;
+
+Here is what each line does:
+
+Calculate the relative offset of the sample pixel and convert it into UV space
+Sample the scene texture (Post Process Input 0 in this case) using the offset
+Calculate the weight for the sampled pixel. To calculate a 2D Gaussian, all you need to do is multiply two 1D Gaussians together. The reason you need to divide by Radius is because the simplified Gaussian expects a value from -1 to 1. This division will normalize x and y to this range.
+Add the weighted color to PixelSum
+Add the weight to WeightSum
+Finally, you need to calculate the result which is the weighted average. To do this, add the following at the end of the file (outside the for loops):
