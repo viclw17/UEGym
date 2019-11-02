@@ -3,13 +3,27 @@
 	"EngineAssociation": "4.23",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "TechArt",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
-			"Name": "ImpostorBaker",
+			"Name": "PythonScriptPlugin",
 			"Enabled": true
 		},
 		{
-			"Name": "HDRIBackdrop",
+			"Name": "ScriptPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "SequencerScripting",
 			"Enabled": true
 		}
 	]

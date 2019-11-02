@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TechArt.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{D91C82C7-8226-4B07-8EC0-3B2146DC779B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TechArt.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TechArtEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{09022D38-4BB2-4ACC-9418-1CB1DFF6137B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\Android">
+      <UniqueIdentifier>{32FAAA55-1C03-4FA8-BE53-F74DBD2E6724}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Android\AndroidEngine.ini">
+      <Filter>Config\Android</Filter>
+    </None>
+    <Filter Include="Config\IOS">
+      <UniqueIdentifier>{95E9DBDA-8F14-48F5-BB9A-8E5144B855A6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\IOS\IOSEngine.ini">
+      <Filter>Config\IOS</Filter>
+    </None>
+    <Filter Include="Config\Linux">
+      <UniqueIdentifier>{6E6AFE35-ECE6-459C-BBC0-C052C7235DD5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Linux\LinuxEngine.ini">
+      <Filter>Config\Linux</Filter>
+    </None>
+    <Filter Include="Config\Mac">
+      <UniqueIdentifier>{D134F530-2203-498A-B817-DF5F520E6D3C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Mac\MacEngine.ini">
+      <Filter>Config\Mac</Filter>
+    </None>
+    <Filter Include="Config\PS4">
+      <UniqueIdentifier>{EE534E23-9771-4802-A050-B69057F0B605}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\PS4\PS4Engine.ini">
+      <Filter>Config\PS4</Filter>
+    </None>
+    <Filter Include="Config\Switch">
+      <UniqueIdentifier>{E85B3BC5-10AB-4F73-BBE8-07A47997478C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Switch\SwitchEngine.ini">
+      <Filter>Config\Switch</Filter>
+    </None>
+    <Filter Include="Config\Windows">
+      <UniqueIdentifier>{0DC1B035-09F1-465F-BBE1-3B6A9BF1DAB1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Windows\WindowsEngine.ini">
+      <Filter>Config\Windows</Filter>
+    </None>
+    <Filter Include="Config\XboxOne">
+      <UniqueIdentifier>{68442E40-25B1-4DF0-9C50-4135AE84ACDE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\XboxOne\XboxOneEngine.ini">
+      <Filter>Config\XboxOne</Filter>
+    </None>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{EA147CD0-68CC-4A0A-98A8-3763C2638D83}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Shaders\Cloud.usf">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Shaders\Cloud2.usf">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Shaders\Cloud3.usf">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Shaders\Gaussian.usf">
+      <Filter>Shaders</Filter>
+    </None>
+    <Filter Include="Source\TechArt">
+      <UniqueIdentifier>{BA4D1079-6569-478C-BBC9-C8130F549C0F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TechArt\TechArt.Build.cs">
+      <Filter>Source\TechArt</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TechArt\TechArt.cpp">
+      <Filter>Source\TechArt</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TechArt\TechArt.h">
+      <Filter>Source\TechArt</Filter>
+    </ClInclude>
+    <Filter Include="Source\TechArt\Private">
+      <UniqueIdentifier>{B0626A7A-9ADD-46D3-AF7A-3A7A6E09FDF0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TechArt\Private\MyGameMode.cpp">
+      <Filter>Source\TechArt\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\TechArt\Public">
+      <UniqueIdentifier>{67390153-5969-4910-92F0-FF2719E8D340}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\TechArt\Public\MyGameMode.h">
+      <Filter>Source\TechArt\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

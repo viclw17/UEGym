@@ -1,0 +1,2 @@
+D:\Git\UEGym\TechArt\Intermediate\Build\Win64\UE4Editor\Development\TechArt\Definitions.TechArt.h
+d:\git\uegym\techart\source\techart\TechArt.h

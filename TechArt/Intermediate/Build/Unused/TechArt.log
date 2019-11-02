@@ -1,0 +1,20 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Git\UEGym).
+  Invalidating makefile for TechArtEditor (source file removed)
+  Parsing headers for TechArtEditor
+    Running UnrealHeaderTool "D:\Git\UEGym\TechArt\TechArt.uproject" "D:\Git\UEGym\TechArt\Intermediate\Build\Win64\TechArtEditor\Development\TechArtEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for TechArtEditor in 3.9062211 seconds
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 9 actions with 16 processes...
+    [1/9] Default.rc2
+    [2/9] SharedPCH.Engine.cpp
+    [3/9] TechArt.cpp
+    [4/9] TechArt.init.gen.cpp
+    [5/9] MyGameMode.cpp
+    [6/9] MyGameMode.gen.cpp
+    [7/9] UE4Editor-TechArt.lib
+       Creating library D:\Git\UEGym\TechArt\Intermediate\Build\Win64\UE4Editor\Development\TechArt\UE4Editor-TechArt.lib and object D:\Git\UEGym\TechArt\Intermediate\Build\Win64\UE4Editor\Development\TechArt\UE4Editor-TechArt.exp
+    [8/9] UE4Editor-TechArt.dll
+       Creating library D:\Git\UEGym\TechArt\Intermediate\Build\Win64\UE4Editor\Development\TechArt\UE4Editor-TechArt.suppressed.lib and object D:\Git\UEGym\TechArt\Intermediate\Build\Win64\UE4Editor\Development\TechArt\UE4Editor-TechArt.suppressed.exp
+    [9/9] TechArtEditor.target
+  Total time in Parallel executor: 15.03 seconds
+  Total execution time: 20.24 seconds

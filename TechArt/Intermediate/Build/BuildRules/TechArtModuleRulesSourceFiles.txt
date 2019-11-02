@@ -1,0 +1,3 @@
+D:\Git\UEGym\TechArt\Source\TechArt\TechArt.Build.cs
+D:\Git\UEGym\TechArt\Source\TechArt.Target.cs
+D:\Git\UEGym\TechArt\Source\TechArtEditor.Target.cs

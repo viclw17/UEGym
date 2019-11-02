@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-TechArt.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Unreal Projects\TechArt\Intermediate\Build\Win64\TechArtEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\Unreal Projects\TechArt\Intermediate\Build\Win64\UE4Editor\Development\TechArt\MyGameMode.cpp.obj"
+"D:\Unreal Projects\TechArt\Intermediate\Build\Win64\UE4Editor\Development\TechArt\TechArt.cpp.obj"
+"D:\Unreal Projects\TechArt\Intermediate\Build\Win64\UE4Editor\Development\TechArt\MyGameMode.gen.cpp.obj"
+"D:\Unreal Projects\TechArt\Intermediate\Build\Win64\UE4Editor\Development\TechArt\TechArt.init.gen.cpp.obj"
+"D:\Unreal Projects\TechArt\Intermediate\Build\Win64\UE4Editor\Development\TechArt\Default.rc2.res"
+/OUT:"D:\Unreal Projects\TechArt\Intermediate\Build\Win64\UE4Editor\Development\TechArt\UE4Editor-TechArt.lib"
+/INCLUDE:IMPLEMENT_MODULE_TechArt
