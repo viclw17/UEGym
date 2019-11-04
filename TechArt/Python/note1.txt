@@ -8,14 +8,15 @@ else:
 
 
 bunny_low = unreal.load_asset('/Game/ShaderTest/bunny_low.bunny_low')
-LogPython: unreal.log(bunny_low)
+unreal.log(bunny_low)
 LogPython: <Object '/Game/ShaderTest/bunny_low.bunny_low' (0x000001BD1A2F3800) Class 'StaticMesh'>
 
 for attribute in dir(bunny_low):
     print attribute
+
 print help(bunny_low)
 
 
 property = bunny_low.get_editor_property('lod_for_occluder_mesh')
-LogPython: print property
+print property
 LogPython: -1
