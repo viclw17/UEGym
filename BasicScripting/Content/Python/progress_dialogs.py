@@ -1,7 +1,7 @@
 # Progress Dialogs for Slow Operations
 import unreal
-total_frames = 10000
-text_label = "Working!"
+total_frames = 100000
+text_label = "Working again!"
 with unreal.ScopedSlowTask(total_frames, text_label) as slow_task:
     slow_task.make_dialog(True)               # Makes the dialog visible, if it isn't already
     for i in range(total_frames):
