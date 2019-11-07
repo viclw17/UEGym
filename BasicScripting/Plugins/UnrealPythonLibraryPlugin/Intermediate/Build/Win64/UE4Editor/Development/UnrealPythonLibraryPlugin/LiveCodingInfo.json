@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.UnrealPythonLibraryPlugin.cpp.obj": [
+			"CppLib.cpp.obj",
+			"UnrealPythonLibraryPlugin.cpp.obj",
+			"UnrealPythonLibraryPluginBPLibrary.cpp.obj"
+		],
+		"Module.UnrealPythonLibraryPlugin.gen.cpp.obj": [
+			"CppLib.gen.cpp.obj",
+			"UnrealPythonLibraryPlugin.init.gen.cpp.obj",
+			"UnrealPythonLibraryPluginBPLibrary.gen.cpp.obj"
+		]
+	}
+}
