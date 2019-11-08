@@ -9,9 +9,10 @@ import json
 # world: obj unreal.World : The world you want to get the actors from. If None, will get the actors from the currently open world.
 # return: obj List unreal.Actor : The actors
 # def getAllActors(use_selection=False, actor_class=None, actor_tag=None, world=None):
-# call on save?
 def getAllLights():
     allLights = wf.getAllActors(False, ue.Light, None, None)
+    skylight = wf.getAllActors(False, ue.SkyLight, None, None)
+    # allLights.append(skylight)
     return allLights
 
 # def getData(s):
