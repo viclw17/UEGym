@@ -1,0 +1,1994 @@
+﻿Log file open, 11/07/19 16:37:07
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: BasicScripting
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.513967
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin PythonScriptPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin SequencerScripting
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin UnrealPythonLibraryPlugin
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz, GPU: NVIDIA GeForce RTX 2080
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.11.08-00.37.07:893][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.11.08-00.37.07:893][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.11.08-00.37.07:893][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Engine.ini]
+[2019.11.08-00.37.07:893][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.11.08-00.37.07:893][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.11.08-00.37.07:893][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Engine.ini]
+[2019.11.08-00.37.07:893][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Engine.ini]
+[2019.11.08-00.37.07:893][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.11.08-00.37.07:893][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.11.08-00.37.07:893][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.11.08-00.37.07:893][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.11.08-00.37.07:893][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.11.08-00.37.07:893][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.11.08-00.37.07:893][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.11.08-00.37.07:893][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.11.08-00.37.07:893][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.11.08-00.37.07:893][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.11.08-00.37.07:893][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.11.08-00.37.07:893][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.11.08-00.37.07:893][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.11.08-00.37.07:893][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Engine.ini]
+[2019.11.08-00.37.07:893][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.11.08-00.37.07:893][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.11.08-00.37.07:893][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.11.08-00.37.07:893][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.11.08-00.37.07:893][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.11.08-00.37.07:893][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.11.08-00.37.07:893][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.11.08-00.37.07:893][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.11.08-00.37.07:893][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.11.08-00.37.07:893][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.11.08-00.37.07:893][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.11.08-00.37.07:893][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.11.08-00.37.07:894][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.11.08-00.37.07:894][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Engine.ini]
+[2019.11.08-00.37.07:894][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Engine.ini]
+[2019.11.08-00.37.07:899][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Scalability.ini]
+[2019.11.08-00.37.07:899][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.08-00.37.07:899][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.08-00.37.07:899][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Scalability.ini]
+[2019.11.08-00.37.07:899][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.08-00.37.07:899][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Scalability.ini]
+[2019.11.08-00.37.07:899][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.08-00.37.07:899][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.08-00.37.07:899][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.08-00.37.07:899][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.08-00.37.07:899][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Scalability.ini]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Scalability.ini]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Scalability.ini]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Scalability.ini]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.08-00.37.07:900][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.08-00.37.07:900][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.08-00.37.07:900][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.08-00.37.07:909][  0]LogHAL: Display: Platform has ~ 64 GB [68634533888 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.08-00.37.07:909][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.11.08-00.37.07:909][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.08-00.37.07:909][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Scalability.ini]
+[2019.11.08-00.37.07:909][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.08-00.37.07:909][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.08-00.37.07:909][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Scalability.ini]
+[2019.11.08-00.37.07:909][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.08-00.37.07:909][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Scalability.ini]
+[2019.11.08-00.37.07:909][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.08-00.37.07:909][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Scalability.ini]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Scalability.ini]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Scalability.ini]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Scalability.ini]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.11.08-00.37.07:910][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Engine.ini]
+[2019.11.08-00.37.07:910][  0]LogInit: Computer: VICTOR
+[2019.11.08-00.37.07:910][  0]LogInit: User: victorl
+[2019.11.08-00.37.07:910][  0]LogInit: CPU Page size=4096, Cores=8
+[2019.11.08-00.37.07:910][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.11.08-00.37.07:911][  0]LogMemory: Memory total: Physical=63.9GB (64GB approx)
+[2019.11.08-00.37.07:911][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.08-00.37.07:911][  0]LogMemory: Process Physical Memory: 98.47 MB used, 98.47 MB peak
+[2019.11.08-00.37.07:911][  0]LogMemory: Process Virtual Memory: 90.63 MB used, 90.63 MB peak
+[2019.11.08-00.37.07:911][  0]LogMemory: Physical Memory: 22916.51 MB used,  42538.48 MB free, 65454.99 MB total
+[2019.11.08-00.37.07:911][  0]LogMemory: Virtual Memory: 4677.18 MB used,  134213048.00 MB free, 134217728.00 MB total
+[2019.11.08-00.37.07:925][  0]LogInit: Using OS detected language (en-US).
+[2019.11.08-00.37.07:925][  0]LogInit: Using OS detected locale (en-CA).
+[2019.11.08-00.37.07:926][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.11.08-00.37.08:033][  0]LogInit: Setting process to per monitor DPI aware
+[2019.11.08-00.37.08:056][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.08-00.37.08:056][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.08-00.37.08:166][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.08-00.37.08:166][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.08-00.37.08:225][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080' (Feature Level 11_0)
+[2019.11.08-00.37.08:225][  0]LogD3D11RHI:       8010/0/32727 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.11.08-00.37.08:226][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.08-00.37.08:226][  0]LogD3D11RHI:       0/0/32727 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.08-00.37.08:226][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.08-00.37.08:236][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.08-00.37.08:236][  0]LogD3D11RHI:     GPU DeviceId: 0x1e82 (for the marketing name, search the web for "GPU Device Id")
+[2019.11.08-00.37.08:236][  0]LogWindows: EnumDisplayDevices:
+[2019.11.08-00.37.08:236][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080' (P:1 D:1)
+[2019.11.08-00.37.08:236][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080' (P:0 D:1)
+[2019.11.08-00.37.08:236][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2019.11.08-00.37.08:236][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2019.11.08-00.37.08:237][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.11.08-00.37.08:237][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080
+[2019.11.08-00.37.08:237][  0]LogD3D11RHI:   Driver Version: 441.08 (internal:26.21.14.4108, unified:441.08)
+[2019.11.08-00.37.08:237][  0]LogD3D11RHI:      Driver Date: 10-22-2019
+[2019.11.08-00.37.08:237][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
+[2019.11.08-00.37.08:275][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.08-00.37.08:284][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.08-00.37.08:284][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.08-00.37.08:284][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.08-00.37.08:291][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.11.08-00.37.08:507][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.11.08-00.37.08:516][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.11.08-00.37.08:524][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.11.08-00.37.08:533][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.11.08-00.37.08:542][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.11.08-00.37.08:551][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.11.08-00.37.08:560][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.11.08-00.37.08:568][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.11.08-00.37.08:572][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.11.08-00.37.08:627][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.11.08-00.37.08:627][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.11.08-00.37.08:627][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.11.08-00.37.08:627][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.11.08-00.37.08:627][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.11.08-00.37.08:627][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.11.08-00.37.08:627][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.11.08-00.37.08:627][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.11.08-00.37.08:627][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.11.08-00.37.08:627][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.11.08-00.37.08:627][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.11.08-00.37.08:627][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.11.08-00.37.08:627][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.11.08-00.37.08:627][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.11.08-00.37.08:627][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.11.08-00.37.08:627][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.11.08-00.37.08:627][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.11.08-00.37.08:627][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.11.08-00.37.08:628][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.11.08-00.37.08:668][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.11.08-00.37.08:668][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.11.08-00.37.08:684][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.11.08-00.37.08:684][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.11.08-00.37.08:692][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.11.08-00.37.08:699][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.11.08-00.37.08:708][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.11.08-00.37.08:716][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.11.08-00.37.08:746][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.11.08-00.37.08:746][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.11.08-00.37.08:746][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.08-00.37.08:750][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.11.08-00.37.08:774][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (../../../../../../Git/UEGym/BasicScripting/Intermediate/Shaders/WorkingDirectory/26064/).
+[2019.11.08-00.37.08:774][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/victor.l/AppData/Local/Temp/UnrealShaderWorkingDir/C3A142A94F88F5FA4F23C5BC98438B47/'.
+[2019.11.08-00.37.08:775][  0]LogXGEController: Cleaning working directory: C:/Users/victor.l/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.11.08-00.37.08:775][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.08-00.37.08:775][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.08-00.37.08:775][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.08-00.37.09:157][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.08-00.37.09:193][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/victor.l/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.08-00.37.09:193][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/victor.l/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.11.08-00.37.09:193][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Git/UEGym/BasicScripting/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.08-00.37.09:193][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.08-00.37.09:193][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Git/UEGym/BasicScripting/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.08-00.37.09:193][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.08-00.37.09:202][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.08-00.37.09:202][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.08-00.37.09:202][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.11.08-00.37.09:214][  0]LogDerivedDataCache: Using Local data cache path C:/Users/victor.l/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.08-00.37.09:214][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.08-00.37.09:214][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.08-00.37.09:229][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.08-00.37.09:230][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.08-00.37.09:230][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.08-00.37.09:292][  0]LogAssetRegistry: FAssetRegistry took 0.0297 seconds to start up
+[2019.11.08-00.37.09:506][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.08-00.37.09:594][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.08-00.37.09:594][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.11.08-00.37.09:594][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.08-00.37.09:594][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.11.08-00.37.09:594][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.11.08-00.37.09:602][  0]LogNetVersion: BasicScripting 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 2027260730)
+[2019.11.08-00.37.09:861][  0]LogPackageLocalizationCache: Processed 13 localized package path(s) for 1 prioritized culture(s) in 0.025044 seconds
+[2019.11.08-00.37.09:866][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.11.08-00.37.09:866][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.11.08-00.37.09:866][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.08-00.37.10:749][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.08-00.37.10:761][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.08-00.37.10:856][  0]SourceControl: Source control is disabled
+[2019.11.08-00.37.10:856][  0]SourceControl: Source control is disabled
+[2019.11.08-00.37.10:857][  0]SourceControl: Source control is disabled
+[2019.11.08-00.37.10:858][  0]SourceControl: Source control is disabled
+[2019.11.08-00.37.10:929][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.08-00.37.10:997][  0]LogOcInput: OculusInput pre-init called
+[2019.11.08-00.37.11:445][  0]LogEngine: Initializing Engine...
+[2019.11.08-00.37.11:445][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.08-00.37.11:446][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.11.08-00.37.11:588][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.08-00.37.11:596][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.08-00.37.11:620][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.08-00.37.11:633][  0]LogInit: FAudioDevice initialized.
+[2019.11.08-00.37.11:633][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.08-00.37.11:674][  0]LogDerivedDataCache: Saved boot cache 0.04s 71MB C:/Users/victor.l/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.08-00.37.11:683][  0]LogInit: Texture streaming: Enabled
+[2019.11.08-00.37.11:692][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.08-00.37.11:707][  0]LogInit: Transaction tracking system initialized
+[2019.11.08-00.37.11:717][  0]BlueprintLog: New page: Editor Load
+[2019.11.08-00.37.11:759][  0]LocalizationService: Localization service is disabled
+[2019.11.08-00.37.11:945][  0]LogFileCache: Scanning file cache for directory 'D:/Git/UEGym/BasicScripting/Content/' took 0.01s
+[2019.11.08-00.37.11:945][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.08-00.37.11:945][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.08-00.37.12:051][  0]SourceControl: Source control is disabled
+[2019.11.08-00.37.12:051][  0]Cmd: MAP LOAD FILE="../../../../../../Git/UEGym/BasicScripting/Content/L_Test1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.08-00.37.12:051][  0]LightingResults: New page: Lighting Build
+[2019.11.08-00.37.12:053][  0]MapCheck: New page: Map Check
+[2019.11.08-00.37.12:053][  0]LightingResults: New page: Lighting Build
+[2019.11.08-00.37.12:080][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2019.11.08-00.37.12:126][  0]LogAIModule: Creating AISystem for world L_Test1
+[2019.11.08-00.37.12:128][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/SUB_Light) is flushing async loading
+[2019.11.08-00.37.12:128][  0]LogStreaming: Display: Flushing async loaders.
+[2019.11.08-00.37.12:130][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.08-00.37.12:160][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2019.11.08-00.37.12:160][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.08-00.37.12:160][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.098ms to complete.
+[2019.11.08-00.37.12:160][  0]LogFileHelpers: Loading map 'L_Test1' took 0.109
+[2019.11.08-00.37.12:244][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.08-00.37.12:249][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.08-00.37.12:254][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.08-00.37.12:259][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.08-00.37.12:262][  0]LogCollectionManager: Loaded 0 collections in 0.000555 seconds
+[2019.11.08-00.37.12:276][  0]LogFileCache: Scanning file cache for directory 'D:/Git/UEGym/BasicScripting/Saved/Collections/' took 0.01s
+[2019.11.08-00.37.12:276][  0]LogFileCache: Scanning file cache for directory 'D:/Git/UEGym/BasicScripting/Content/Developers/victorl/Collections/' took 0.00s
+[2019.11.08-00.37.12:276][  0]LogFileCache: Scanning file cache for directory 'D:/Git/UEGym/BasicScripting/Content/Collections/' took 0.00s
+[2019.11.08-00.37.12:276][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.11.08-00.37.12:282][  0]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 2775 classes and 676 folders.
+[2019.11.08-00.37.12:285][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.08-00.37.12:286][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-00.37.12:287][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-00.37.12:287][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-00.37.12:287][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-00.37.12:287][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-00.37.12:288][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-00.37.12:288][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-00.37.12:288][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-00.37.12:288][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-00.37.12:289][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-00.37.12:289][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-00.37.12:289][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-00.37.12:289][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-00.37.12:290][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-00.37.12:290][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-00.37.12:290][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-00.37.12:290][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-00.37.12:291][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-00.37.12:291][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-00.37.12:291][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-00.37.12:291][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-00.37.12:292][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-00.37.12:292][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-00.37.12:292][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-00.37.12:292][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-00.37.12:293][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-00.37.12:305][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.08-00.37.12:309][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.11.08-00.37.12:320][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0002 seconds. Added 2 classes and 3 folders.
+[2019.11.08-00.37.12:363][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.08-00.37.12:363][  0]LogLoad: (Engine Initialization) Total time: 5.97 seconds
+[2019.11.08-00.37.12:363][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.08-00.37.12:390][  0]LogAssetRegistry: Asset discovery search completed in 3.1202 seconds
+[2019.11.08-00.37.12:392][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.11.08-00.37.12:392][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
+[2019.11.08-00.37.12:393][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.08-00.37.12:398][  0]LogSlate: Took 0.000092 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.08-00.37.12:400][  0]LogSlate: Took 0.000068 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.08-00.37.12:401][  0]LogSlate: Took 0.000066 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.08-00.37.12:402][  0]LogSlate: Took 0.000053 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.11.08-00.37.12:482][  1]LogPython: Warning: hello unreal!
+[2019.11.08-00.37.12:494][  2]LogRenderer: Reallocating scene render targets to support 824x268 Format 10 NumSamples 1 (Frame:1).
+[2019.11.08-00.37.16:999][103]LogRenderer: Reallocating scene render targets to support 824x408 Format 10 NumSamples 1 (Frame:104).
+[2019.11.08-00.37.17:019][105]LogPython: Display: Generating Python API stub file...
+[2019.11.08-00.37.17:076][105]LogPython: Display:   ...generating Python API: glue code
+[2019.11.08-00.37.17:225][105]LogPython: Display:   ...generating Python API: additional code
+[2019.11.08-00.37.17:264][105]LogPython: Display:   ...generated: D:/Git/UEGym/BasicScripting/Intermediate/PythonStub/unreal.py
+[2019.11.08-00.37.18:392][240]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-00.37.19:744][402]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-00.37.20:901][402]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-00.37.20:901][402]LogPython: Error:   File "<string>", line 5, in <module>
+[2019.11.08-00.37.20:901][402]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-00.37.20:901][402]LogPython: Error:     window = desired_window_class()
+[2019.11.08-00.37.20:901][402]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 17, in __init__
+[2019.11.08-00.37.20:901][402]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME)
+[2019.11.08-00.37.20:901][402]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-00.37.51:104][144]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-00.37.51:105][144]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-00.37.51:105][144]LogPython: Error:   File "<string>", line 3, in <module>
+[2019.11.08-00.37.51:105][144]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 21
+[2019.11.08-00.37.51:105][144]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(ui_file)
+[2019.11.08-00.37.51:106][144]LogPython: Error:     ^
+[2019.11.08-00.37.51:106][144]LogPython: Error: IndentationError: unexpected indent
+[2019.11.08-00.40.36:063][975]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-00.43.33:372][923]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-00.43.33:379][923]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-00.43.33:379][923]LogPython: Error:   File "<string>", line 5, in <module>
+[2019.11.08-00.43.33:379][923]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-00.43.33:379][923]LogPython: Error:     window = desired_window_class()
+[2019.11.08-00.43.33:379][923]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 17, in __init__
+[2019.11.08-00.43.33:379][923]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME)
+[2019.11.08-00.43.33:379][923]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-00.43.36:500][298]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-00.43.36:506][298]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-00.43.36:506][298]LogPython: Error:   File "<string>", line 5, in <module>
+[2019.11.08-00.43.36:506][298]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-00.43.36:507][298]LogPython: Error:     window = desired_window_class()
+[2019.11.08-00.43.36:507][298]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 17, in __init__
+[2019.11.08-00.43.36:507][298]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME)
+[2019.11.08-00.43.36:507][298]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-00.44.20:579][978]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-00.44.20:589][978]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-00.44.20:589][978]LogPython: Error:   File "<string>", line 5, in <module>
+[2019.11.08-00.44.20:589][978]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-00.44.20:590][978]LogPython: Error:     window = desired_window_class()
+[2019.11.08-00.44.20:590][978]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 18, in __init__
+[2019.11.08-00.44.20:590][978]LogPython: Error:     print(QtUiTools.QUiLoader.errorString())
+[2019.11.08-00.44.20:590][978]LogPython: Error: AttributeError: type object 'PySide.QtUiTools.QUiLoader' has no attribute 'errorString'
+[2019.11.08-00.45.33:589][666]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-00.45.37:851][165]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-00.45.37:857][165]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-00.45.37:858][165]LogPython: Error:   File "<string>", line 5, in <module>
+[2019.11.08-00.45.37:858][165]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-00.45.37:858][165]LogPython: Error:     window = desired_window_class()
+[2019.11.08-00.45.37:858][165]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 17, in __init__
+[2019.11.08-00.45.37:858][165]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME, self)
+[2019.11.08-00.45.37:858][165]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-00.45.39:480][360]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-00.45.39:487][360]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-00.45.39:487][360]LogPython: Error:   File "<string>", line 5, in <module>
+[2019.11.08-00.45.39:487][360]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-00.45.39:487][360]LogPython: Error:     window = desired_window_class()
+[2019.11.08-00.45.39:487][360]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 17, in __init__
+[2019.11.08-00.45.39:487][360]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME, self)
+[2019.11.08-00.45.39:487][360]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-00.45.40:008][423]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-00.45.40:014][423]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-00.45.40:014][423]LogPython: Error:   File "<string>", line 5, in <module>
+[2019.11.08-00.45.40:014][423]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-00.45.40:014][423]LogPython: Error:     window = desired_window_class()
+[2019.11.08-00.45.40:014][423]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 17, in __init__
+[2019.11.08-00.45.40:014][423]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME, self)
+[2019.11.08-00.45.40:014][423]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-00.45.40:428][473]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-00.45.40:434][473]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-00.45.40:434][473]LogPython: Error:   File "<string>", line 5, in <module>
+[2019.11.08-00.45.40:434][473]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-00.45.40:434][473]LogPython: Error:     window = desired_window_class()
+[2019.11.08-00.45.40:434][473]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 17, in __init__
+[2019.11.08-00.45.40:434][473]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME, self)
+[2019.11.08-00.45.40:434][473]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-00.45.40:855][524]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-00.45.40:862][524]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-00.45.40:862][524]LogPython: Error:   File "<string>", line 5, in <module>
+[2019.11.08-00.45.40:863][524]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-00.45.40:863][524]LogPython: Error:     window = desired_window_class()
+[2019.11.08-00.45.40:863][524]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 17, in __init__
+[2019.11.08-00.45.40:863][524]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME, self)
+[2019.11.08-00.45.40:863][524]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-00.46.34:535][636]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-00.46.34:536][636]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-00.46.34:536][636]LogPython: Error:   File "<string>", line 3, in <module>
+[2019.11.08-00.46.34:537][636]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 26
+[2019.11.08-00.46.34:537][636]LogPython: Error:     self.widget.setParent(self)
+[2019.11.08-00.46.34:537][636]LogPython: Error:     ^
+[2019.11.08-00.46.34:537][636]LogPython: Error: IndentationError: unexpected indent
+[2019.11.08-00.47.22:363][631]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-00.47.25:981][ 24]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-00.47.25:987][ 24]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-00.47.25:987][ 24]LogPython: Error:   File "<string>", line 5, in <module>
+[2019.11.08-00.47.25:987][ 24]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-00.47.25:987][ 24]LogPython: Error:     window = desired_window_class()
+[2019.11.08-00.47.25:987][ 24]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 23, in __init__
+[2019.11.08-00.47.25:987][ 24]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME, self)
+[2019.11.08-00.47.25:987][ 24]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-00.47.32:749][785]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-00.47.32:755][785]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-00.47.32:755][785]LogPython: Error:   File "<string>", line 5, in <module>
+[2019.11.08-00.47.32:755][785]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-00.47.32:756][785]LogPython: Error:     window = desired_window_class()
+[2019.11.08-00.47.32:756][785]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 23, in __init__
+[2019.11.08-00.47.32:756][785]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME, self)
+[2019.11.08-00.47.32:756][785]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-00.48.16:655][131]Cmd: SELECT NONE
+[2019.11.08-00.48.55:129][515]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-00.48.55:137][515]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-00.48.55:137][515]LogPython: Error:   File "<string>", line 5, in <module>
+[2019.11.08-00.48.55:137][515]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-00.48.55:137][515]LogPython: Error:     window = desired_window_class
+[2019.11.08-00.48.55:137][515]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 23, in __init__
+[2019.11.08-00.48.55:138][515]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME, self)
+[2019.11.08-00.48.55:138][515]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-00.48.57:616][813]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-00.48.57:622][813]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-00.48.57:622][813]LogPython: Error:   File "<string>", line 5, in <module>
+[2019.11.08-00.48.57:622][813]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-00.48.57:623][813]LogPython: Error:     window = desired_window_class
+[2019.11.08-00.48.57:623][813]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 23, in __init__
+[2019.11.08-00.48.57:623][813]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME, self)
+[2019.11.08-00.48.57:623][813]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-00.56.43:617][370]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-00.56.48:551][951]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-00.56.48:557][951]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-00.56.48:557][951]LogPython: Error:   File "<string>", line 6, in <module>
+[2019.11.08-00.56.48:557][951]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-00.56.48:557][951]LogPython: Error:     window = desired_window_class
+[2019.11.08-00.56.48:557][951]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 23, in __init__
+[2019.11.08-00.56.48:558][951]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME)
+[2019.11.08-00.56.48:558][951]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-01.00.00:818][  2]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.00.00:824][  2]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.00.00:824][  2]LogPython: Error:   File "<string>", line 6, in <module>
+[2019.11.08-01.00.00:824][  2]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-01.00.00:824][  2]LogPython: Error:     window = desired_window_class
+[2019.11.08-01.00.00:824][  2]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 23, in __init__
+[2019.11.08-01.00.00:824][  2]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME)
+[2019.11.08-01.00.00:824][  2]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-01.00.27:527][364]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.00.27:533][364]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.00.27:533][364]LogPython: Error:   File "<string>", line 6, in <module>
+[2019.11.08-01.00.27:533][364]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-01.00.27:533][364]LogPython: Error:     window = desired_window_class()
+[2019.11.08-01.00.27:533][364]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 23, in __init__
+[2019.11.08-01.00.27:533][364]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME)
+[2019.11.08-01.00.27:533][364]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-01.01.06:985][962]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.01.06:991][962]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.01.06:991][962]LogPython: Error:   File "<string>", line 6, in <module>
+[2019.11.08-01.01.06:991][962]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-01.01.06:992][962]LogPython: Error:     # window = desired_window_class()
+[2019.11.08-01.01.06:992][962]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 23, in __init__
+[2019.11.08-01.01.06:992][962]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME)
+[2019.11.08-01.01.06:992][962]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-01.01.49:340][ 43]LogPython: import QtFunctions
+import QtWindowTwo
+QtFunctions.spawnQtWindow(QtWindowTwo.QtWindowTwo)
+[2019.11.08-01.01.49:346][ 43]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.01.49:346][ 43]LogPython: Error:   File "<string>", line 3, in <module>
+[2019.11.08-01.01.49:346][ 43]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-01.01.49:346][ 43]LogPython: Error:     # window = desired_window_class()
+[2019.11.08-01.01.49:346][ 43]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowTwo.py", line 13, in __init__
+[2019.11.08-01.01.49:347][ 43]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME)
+[2019.11.08-01.01.49:347][ 43]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-01.02.01:112][828]LogPython: import QtFunctions
+import QtWindowTwo
+QtFunctions.spawnQtWindow(QtWindowTwo.QtWindowTwo)
+[2019.11.08-01.02.01:117][828]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.02.01:117][828]LogPython: Error:   File "<string>", line 3, in <module>
+[2019.11.08-01.02.01:117][828]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-01.02.01:117][828]LogPython: Error:     window = desired_window_class()
+[2019.11.08-01.02.01:118][828]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowTwo.py", line 13, in __init__
+[2019.11.08-01.02.01:118][828]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME)
+[2019.11.08-01.02.01:118][828]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-01.02.26:103][826]LogPython: import QtFunctions
+import QtWindowThree
+QtFunctions.spawnQtWindow(QtWindowThree.QtWindowThree)
+[2019.11.08-01.02.26:109][826]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.02.26:110][826]LogPython: Error:   File "<string>", line 3, in <module>
+[2019.11.08-01.02.26:110][826]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-01.02.26:110][826]LogPython: Error:     window = desired_window_class()
+[2019.11.08-01.02.26:110][826]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowThree.py", line 13, in __init__
+[2019.11.08-01.02.26:110][826]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME)
+[2019.11.08-01.02.26:110][826]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-01.04.07:978][747]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.04.11:953][213]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.04.15:754][661]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.06.27:588][ 54]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.06.27:599][ 54]LogPython: D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py
+[2019.11.08-01.06.27:599][ 54]LogPython: 
+
+[2019.11.08-01.08.14:745][505]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.08.14:756][505]LogPython: D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py
+[2019.11.08-01.08.14:756][505]LogPython: 
+
+[2019.11.08-01.08.20:277][155]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.08.20:283][155]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.08.20:283][155]LogPython: Error:   File "<string>", line 6, in <module>
+[2019.11.08-01.08.20:283][155]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-01.08.20:283][155]LogPython: Error:     window = desired_window_class()
+[2019.11.08-01.08.20:283][155]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 18, in __init__
+[2019.11.08-01.08.20:283][155]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME)
+[2019.11.08-01.08.20:284][155]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-01.08.21:555][308]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.08.21:561][308]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.08.21:561][308]LogPython: Error:   File "<string>", line 6, in <module>
+[2019.11.08-01.08.21:561][308]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-01.08.21:561][308]LogPython: Error:     window = desired_window_class()
+[2019.11.08-01.08.21:561][308]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 18, in __init__
+[2019.11.08-01.08.21:561][308]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME)
+[2019.11.08-01.08.21:561][308]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-01.08.34:791][ 36]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.08.34:796][ 36]LogPython: D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py
+[2019.11.08-01.08.34:796][ 36]LogPython: 
+
+[2019.11.08-01.08.42:161][907]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.08.42:162][907]LogPython: D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.pyc
+[2019.11.08-01.08.42:162][907]LogPython: 
+
+[2019.11.08-01.08.42:167][907]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.08.42:167][907]LogPython: Error:   File "<string>", line 6, in <module>
+[2019.11.08-01.08.42:167][907]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-01.08.42:167][907]LogPython: Error:     window = desired_window_class()
+[2019.11.08-01.08.42:167][907]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 19, in __init__
+[2019.11.08-01.08.42:168][907]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME)
+[2019.11.08-01.08.42:168][907]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-01.08.44:157][146]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.08.44:158][146]LogPython: D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.pyc
+[2019.11.08-01.08.44:158][146]LogPython: 
+
+[2019.11.08-01.08.44:163][146]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.08.44:163][146]LogPython: Error:   File "<string>", line 6, in <module>
+[2019.11.08-01.08.44:163][146]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-01.08.44:164][146]LogPython: Error:     window = desired_window_class()
+[2019.11.08-01.08.44:164][146]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 19, in __init__
+[2019.11.08-01.08.44:164][146]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME)
+[2019.11.08-01.08.44:164][146]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-01.11.29:849][599]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.11.33:462][ 16]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.11.33:468][ 16]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.11.33:469][ 16]LogPython: Error:   File "<string>", line 6, in <module>
+[2019.11.08-01.11.33:469][ 16]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-01.11.33:469][ 16]LogPython: Error:     window = desired_window_class()
+[2019.11.08-01.11.33:469][ 16]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 19, in __init__
+[2019.11.08-01.11.33:469][ 16]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME)
+[2019.11.08-01.11.33:469][ 16]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-01.11.34:716][166]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.11.34:722][166]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.11.34:722][166]LogPython: Error:   File "<string>", line 6, in <module>
+[2019.11.08-01.11.34:722][166]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-01.11.34:723][166]LogPython: Error:     window = desired_window_class()
+[2019.11.08-01.11.34:723][166]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 19, in __init__
+[2019.11.08-01.11.34:723][166]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME)
+[2019.11.08-01.11.34:723][166]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-01.11.35:210][225]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.11.35:216][225]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.11.35:217][225]LogPython: Error:   File "<string>", line 6, in <module>
+[2019.11.08-01.11.35:217][225]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-01.11.35:217][225]LogPython: Error:     window = desired_window_class()
+[2019.11.08-01.11.35:217][225]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 19, in __init__
+[2019.11.08-01.11.35:217][225]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME)
+[2019.11.08-01.11.35:217][225]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-01.11.36:022][322]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.11.36:028][322]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.11.36:028][322]LogPython: Error:   File "<string>", line 6, in <module>
+[2019.11.08-01.11.36:028][322]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-01.11.36:028][322]LogPython: Error:     window = desired_window_class()
+[2019.11.08-01.11.36:028][322]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 19, in __init__
+[2019.11.08-01.11.36:029][322]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME)
+[2019.11.08-01.11.36:029][322]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-01.11.45:456][984]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.11.45:460][984]LogPython: D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py
+[2019.11.08-01.11.45:460][984]LogPython: 
+
+[2019.11.08-01.11.49:620][472]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.11.49:621][472]LogPython: D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.pyc
+[2019.11.08-01.11.49:621][472]LogPython: 
+
+[2019.11.08-01.11.49:626][472]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.11.49:627][472]LogPython: Error:   File "<string>", line 6, in <module>
+[2019.11.08-01.11.49:627][472]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-01.11.49:627][472]LogPython: Error:     window = desired_window_class()
+[2019.11.08-01.11.49:627][472]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 19, in __init__
+[2019.11.08-01.11.49:627][472]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME)
+[2019.11.08-01.11.49:627][472]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-01.15.00:659][ 25]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.15.00:665][ 25]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.15.00:665][ 25]LogPython: Error:   File "<string>", line 6, in <module>
+[2019.11.08-01.15.00:665][ 25]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-01.15.00:665][ 25]LogPython: Error:     window = desired_window_class()
+[2019.11.08-01.15.00:665][ 25]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 18, in __init__
+[2019.11.08-01.15.00:665][ 25]LogPython: Error:     print(self.__file__)
+[2019.11.08-01.15.00:666][ 25]LogPython: Error: AttributeError: 'QtWindowIGG' object has no attribute '__file__'
+[2019.11.08-01.15.19:725][568]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.15.19:730][568]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.15.19:730][568]LogPython: Error:   File "<string>", line 6, in <module>
+[2019.11.08-01.15.19:730][568]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-01.15.19:730][568]LogPython: Error:     window = desired_window_class()
+[2019.11.08-01.15.19:730][568]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 18, in __init__
+[2019.11.08-01.15.19:731][568]LogPython: Error:     print(QtWindowIGG.__file__)
+[2019.11.08-01.15.19:731][568]LogPython: Error: AttributeError: type object 'QtWindowIGG' has no attribute '__file__'
+[2019.11.08-01.16.35:317][ 60]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.16.35:327][ 60]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.16.35:327][ 60]LogPython: Error:   File "<string>", line 6, in <module>
+[2019.11.08-01.16.35:327][ 60]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-01.16.35:327][ 60]LogPython: Error:     window = desired_window_class()
+[2019.11.08-01.16.35:327][ 60]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 19, in __init__
+[2019.11.08-01.16.35:327][ 60]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME)
+[2019.11.08-01.16.35:328][ 60]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-01.16.36:973][258]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.16.40:815][707]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.16.58:232][102]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.16.58:242][102]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.16.58:243][102]LogPython: Error:   File "<string>", line 6, in <module>
+[2019.11.08-01.16.58:243][102]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-01.16.58:243][102]LogPython: Error:     window = desired_window_class()
+[2019.11.08-01.16.58:243][102]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 20, in __init__
+[2019.11.08-01.16.58:243][102]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME)
+[2019.11.08-01.16.58:243][102]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-01.16.59:481][251]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.17.19:237][ 79]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.17.19:247][ 79]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.17.19:247][ 79]LogPython: Error:   File "<string>", line 6, in <module>
+[2019.11.08-01.17.19:247][ 79]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-01.17.19:247][ 79]LogPython: Error:     window = desired_window_class()
+[2019.11.08-01.17.19:247][ 79]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 20, in __init__
+[2019.11.08-01.17.19:248][ 79]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME)
+[2019.11.08-01.17.19:248][ 79]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-01.17.20:311][207]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.22.26:088][982]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.22.26:093][982]LogPython: D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows
+[2019.11.08-01.22.26:093][982]LogPython: 
+
+[2019.11.08-01.22.26:098][982]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.22.26:099][982]LogPython: Error:   File "<string>", line 6, in <module>
+[2019.11.08-01.22.26:099][982]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-01.22.26:099][982]LogPython: Error:     window = desired_window_class()
+[2019.11.08-01.22.26:099][982]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 20, in __init__
+[2019.11.08-01.22.26:099][982]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME)
+[2019.11.08-01.22.26:099][982]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-01.22.38:552][928]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.22.38:557][928]LogPython: D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows
+[2019.11.08-01.22.38:557][928]LogPython: 
+
+[2019.11.08-01.22.38:562][928]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.22.38:562][928]LogPython: Error:   File "<string>", line 6, in <module>
+[2019.11.08-01.22.38:562][928]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-01.22.38:562][928]LogPython: Error:     window = desired_window_class()
+[2019.11.08-01.22.38:562][928]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 20, in __init__
+[2019.11.08-01.22.38:563][928]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME)
+[2019.11.08-01.22.38:563][928]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-01.22.39:802][ 77]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.22.39:803][ 77]LogPython: D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows
+[2019.11.08-01.22.39:803][ 77]LogPython: 
+
+[2019.11.08-01.23.27:962][221]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.23.27:972][221]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.23.27:972][221]LogPython: Error:   File "<string>", line 6, in <module>
+[2019.11.08-01.23.27:972][221]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-01.23.27:972][221]LogPython: Error:     window = desired_window_class()
+[2019.11.08-01.23.27:972][221]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 20, in __init__
+[2019.11.08-01.23.27:972][221]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME)
+[2019.11.08-01.23.27:973][221]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-01.23.29:052][351]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.23.29:058][351]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.23.29:058][351]LogPython: Error:   File "<string>", line 6, in <module>
+[2019.11.08-01.23.29:058][351]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-01.23.29:058][351]LogPython: Error:     window = desired_window_class()
+[2019.11.08-01.23.29:058][351]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 20, in __init__
+[2019.11.08-01.23.29:058][351]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME)
+[2019.11.08-01.23.29:058][351]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-01.23.29:739][433]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.23.29:744][433]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.23.29:745][433]LogPython: Error:   File "<string>", line 6, in <module>
+[2019.11.08-01.23.29:745][433]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-01.23.29:745][433]LogPython: Error:     window = desired_window_class()
+[2019.11.08-01.23.29:745][433]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 20, in __init__
+[2019.11.08-01.23.29:745][433]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME)
+[2019.11.08-01.23.29:745][433]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-01.23.30:208][489]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.23.30:214][489]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.23.30:214][489]LogPython: Error:   File "<string>", line 6, in <module>
+[2019.11.08-01.23.30:214][489]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-01.23.30:214][489]LogPython: Error:     window = desired_window_class()
+[2019.11.08-01.23.30:214][489]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 20, in __init__
+[2019.11.08-01.23.30:214][489]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME)
+[2019.11.08-01.23.30:214][489]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-01.23.37:472][204]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.23.37:482][204]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.23.37:482][204]LogPython: Error:   File "<string>", line 6, in <module>
+[2019.11.08-01.23.37:482][204]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-01.23.37:483][204]LogPython: Error:     window = desired_window_class()
+[2019.11.08-01.23.37:483][204]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 20, in __init__
+[2019.11.08-01.23.37:483][204]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME)
+[2019.11.08-01.23.37:483][204]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-01.23.38:287][301]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.23.38:293][301]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.23.38:293][301]LogPython: Error:   File "<string>", line 6, in <module>
+[2019.11.08-01.23.38:294][301]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-01.23.38:294][301]LogPython: Error:     window = desired_window_class()
+[2019.11.08-01.23.38:294][301]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 20, in __init__
+[2019.11.08-01.23.38:294][301]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME)
+[2019.11.08-01.23.38:294][301]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-01.23.38:881][372]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.23.38:887][372]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.23.38:887][372]LogPython: Error:   File "<string>", line 6, in <module>
+[2019.11.08-01.23.38:887][372]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\QtFunctions.py", line 38, in spawnQtWindow
+[2019.11.08-01.23.38:888][372]LogPython: Error:     window = desired_window_class()
+[2019.11.08-01.23.38:888][372]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 20, in __init__
+[2019.11.08-01.23.38:888][372]LogPython: Error:     self.widget = QtUiTools.QUiLoader().load(UI_FILE_FULLNAME)
+[2019.11.08-01.23.38:888][372]LogPython: Error: RuntimeError: Unable to open/read ui device
+[2019.11.08-01.24.10:216][648]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.24.13:234][  0]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.24.17:416][489]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.24.37:554][945]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.25.29:071][357]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.25.44:865][877]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.25.48:664][331]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bunny_low)
+[2019.11.08-01.25.54:565][903]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bunny_low2)
+[2019.11.08-01.25.56:994][191]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bunny_low3)
+[2019.11.08-01.26.04:182][ 42]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.08-01.28.55:302][644]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.28.57:161][862]LogPython: Error: TypeError
+[2019.11.08-01.28.57:161][862]LogPython: Error: : 
+[2019.11.08-01.28.57:162][862]LogPython: Error: importAssets() takes no arguments (1 given)
+[2019.11.08-01.28.57:162][862]LogPython: Error: 
+
+[2019.11.08-01.31.03:947][ 97]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.31.06:237][322]LogPython: Error: TypeError
+[2019.11.08-01.31.06:237][322]LogPython: Error: : 
+[2019.11.08-01.31.06:237][322]LogPython: Error: importAssets() takes no arguments (1 given)
+[2019.11.08-01.31.06:237][322]LogPython: Error: 
+
+[2019.11.08-01.31.48:209][121]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.31.49:860][317]LogPython: Error: TypeError
+[2019.11.08-01.31.49:860][317]LogPython: Error: : 
+[2019.11.08-01.31.49:860][317]LogPython: Error: importAssets() takes no arguments (1 given)
+[2019.11.08-01.31.49:860][317]LogPython: Error: 
+
+[2019.11.08-01.32.46:183][922]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.32.46:184][922]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.32.46:184][922]LogPython: Error:   File "<string>", line 3, in <module>
+[2019.11.08-01.32.46:184][922]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 54
+[2019.11.08-01.32.46:184][922]LogPython: Error:     af.executeImportTasks(task):
+[2019.11.08-01.32.46:185][922]LogPython: Error:                                ^
+[2019.11.08-01.32.46:185][922]LogPython: Error: SyntaxError: invalid syntax
+[2019.11.08-01.32.51:750][237]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.32.53:194][406]LogPython: Error: TypeError
+[2019.11.08-01.32.53:194][406]LogPython: Error: : 
+[2019.11.08-01.32.53:194][406]LogPython: Error: importAssets() takes no arguments (1 given)
+[2019.11.08-01.32.53:194][406]LogPython: Error: 
+
+[2019.11.08-01.33.47:570][208]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.33.47:571][208]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.33.47:572][208]LogPython: Error:   File "<string>", line 3, in <module>
+[2019.11.08-01.33.47:572][208]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 53
+[2019.11.08-01.33.47:572][208]LogPython: Error:     task = af.buildImportTask(filename='test', destination_path=static_mesh_fbx, None)
+[2019.11.08-01.33.47:572][208]LogPython: Error: SyntaxError: non-keyword arg after keyword arg
+[2019.11.08-01.34.04:424][717]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.34.06:457][959]LogPython: Error: TypeError
+[2019.11.08-01.34.06:457][959]LogPython: Error: : 
+[2019.11.08-01.34.06:457][959]LogPython: Error: importAssets() takes no arguments (1 given)
+[2019.11.08-01.34.06:457][959]LogPython: Error: 
+
+[2019.11.08-01.34.12:474][681]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.08-01.34.42:834][418]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.34.44:158][574]LogPython: Error: Traceback (most recent call last):
+
+[2019.11.08-01.34.44:158][574]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 54, in importAssets
+
+[2019.11.08-01.34.44:158][574]LogPython: Error:     
+[2019.11.08-01.34.44:158][574]LogPython: Error: af.executeImportTasks(task)
+
+[2019.11.08-01.34.44:158][574]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\AssetFunctions.py", line 241, in executeImportTasks
+
+[2019.11.08-01.34.44:159][574]LogPython: Error:     
+[2019.11.08-01.34.44:159][574]LogPython: Error: unreal.AssetToolsHelpers.get_asset_tools().import_asset_tasks(tasks)
+
+[2019.11.08-01.34.44:159][574]LogPython: Error: TypeError
+[2019.11.08-01.34.44:159][574]LogPython: Error: : 
+[2019.11.08-01.34.44:159][574]LogPython: Error: AssetTools: Failed to convert parameter 'import_tasks' when calling function 'AssetTools.ImportAssetTasks' on 'Default__AssetToolsImpl'
+  TypeError: NativizeProperty: Cannot nativize 'AssetImportTask' as 'ImportTasks' (ArrayProperty)
+    TypeError: object of type 'AssetImportTask' has no len()
+[2019.11.08-01.34.44:159][574]LogPython: Error: 
+
+[2019.11.08-01.34.58:824][148]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.35.00:497][342]LogPython: Error: Traceback (most recent call last):
+
+[2019.11.08-01.35.00:497][342]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 54, in importAssets
+
+[2019.11.08-01.35.00:498][342]LogPython: Error:     
+[2019.11.08-01.35.00:498][342]LogPython: Error: af.executeImportTasks(task)
+
+[2019.11.08-01.35.00:498][342]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\AssetFunctions.py", line 241, in executeImportTasks
+
+[2019.11.08-01.35.00:498][342]LogPython: Error:     
+[2019.11.08-01.35.00:498][342]LogPython: Error: unreal.AssetToolsHelpers.get_asset_tools().import_asset_tasks(tasks)
+
+[2019.11.08-01.35.00:498][342]LogPython: Error: TypeError
+[2019.11.08-01.35.00:498][342]LogPython: Error: : 
+[2019.11.08-01.35.00:498][342]LogPython: Error: AssetTools: Failed to convert parameter 'import_tasks' when calling function 'AssetTools.ImportAssetTasks' on 'Default__AssetToolsImpl'
+  TypeError: NativizeProperty: Cannot nativize 'AssetImportTask' as 'ImportTasks' (ArrayProperty)
+    TypeError: object of type 'AssetImportTask' has no len()
+[2019.11.08-01.35.00:499][342]LogPython: Error: 
+
+[2019.11.08-01.35.50:099][293]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.35.51:705][483]LogPython: Error: Traceback (most recent call last):
+
+[2019.11.08-01.35.51:705][483]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 54, in importAssets
+
+[2019.11.08-01.35.51:705][483]LogPython: Error:     
+[2019.11.08-01.35.51:705][483]LogPython: Error: af.executeImportTasks(task)
+
+[2019.11.08-01.35.51:706][483]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\PythonLibraries\AssetFunctions.py", line 241, in executeImportTasks
+
+[2019.11.08-01.35.51:706][483]LogPython: Error:     
+[2019.11.08-01.35.51:706][483]LogPython: Error: unreal.AssetToolsHelpers.get_asset_tools().import_asset_tasks(tasks)
+
+[2019.11.08-01.35.51:706][483]LogPython: Error: TypeError
+[2019.11.08-01.35.51:706][483]LogPython: Error: : 
+[2019.11.08-01.35.51:706][483]LogPython: Error: AssetTools: Failed to convert parameter 'import_tasks' when calling function 'AssetTools.ImportAssetTasks' on 'Default__AssetToolsImpl'
+  TypeError: NativizeProperty: Cannot nativize 'AssetImportTask' as 'ImportTasks' (ArrayProperty)
+    TypeError: object of type 'AssetImportTask' has no len()
+[2019.11.08-01.35.51:706][483]LogPython: Error: 
+
+[2019.11.08-01.37.55:882][946]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.37.57:706][158]LogSlate: Took 0.000112 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.08-01.37.57:719][158]LogAssetTools: Warning: Failed to import 'test'. Unknown extension ''.
+[2019.11.08-01.37.57:733][158]LogFileHelpers: No new changes to save!
+[2019.11.08-01.38.19:226][951]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.38.21:202][185]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'D_/Git/UEGym/BasicScripting/Assets/bunny_low_FBX/test' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2019.11.08-01.38.21:202][185]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'D_/Git/UEGym/BasicScripting/Assets/bunny_low_FBX/test' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2019.11.08-01.38.21:203][185]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'D_/Git/UEGym/BasicScripting/Assets/bunny_low_FBX/test' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2019.11.08-01.38.21:203][185]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'D_/Git/UEGym/BasicScripting/Assets/bunny_low_FBX/test' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2019.11.08-01.38.21:203][185]LogFactory: Error: Can't find file 'test.fbx' for import
+[2019.11.08-01.38.21:203][185]LogAssetTools: Warning: Failed to import 'test.fbx'. Failed to create asset 'D_/Git/UEGym/BasicScripting/Assets/bunny_low_FBX/test'.
+Please see Output Log for details.
+[2019.11.08-01.38.21:206][185]LogFileHelpers: No new changes to save!
+[2019.11.08-01.39.21:609][530]LogSlate: Took 0.000108 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.08-01.39.33:908][999]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2019.11.08-01.39.36:109][999]LogSlate: Window 'Delete Assets' being destroyed
+[2019.11.08-01.39.42:072][713]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.39.43:703][905]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Git/UEGym/BasicScripting/Assets/bunny_low.FBX)
+[2019.11.08-01.39.43:705][905]LogEditorFactories: Performing atomic reimport of [D:/Git/UEGym/BasicScripting/Assets/bunny_low.FBX]
+[2019.11.08-01.39.43:712][905]LogFbx: Loading FBX Scene from D:/Git/UEGym/BasicScripting/Assets/bunny_low.FBX
+[2019.11.08-01.39.43:720][905]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.08-01.39.43:750][905]LogStaticMesh: Building static mesh bunny_low...
+[2019.11.08-01.39.43:786][905]LogStaticMesh: Built static mesh [0.04s] /Game/StaticMeshes/bunny_low.bunny_low
+[2019.11.08-01.39.43:806][905]LogEditorFactories: -- imported successfully
+[2019.11.08-01.39.43:809][905]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.08-01.39.43:827][905]The following assets could not be successfully checked out from source control:
+/Game/StaticMeshes/bunny_low
+[2019.11.08-01.39.43:835][905]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticMeshes/bunny_low" FILE="../../../../../../Git/UEGym/BasicScripting/Content/StaticMeshes/bunny_low.uasset" SILENT=true
+[2019.11.08-01.39.43:861][905]LogSavePackage: Moving '../../../../../../Git/UEGym/BasicScripting/Saved/bunny_low4465AFE2459BE78E3E22C4B8FAF23E5A.tmp' to '../../../../../../Git/UEGym/BasicScripting/Content/StaticMeshes/bunny_low.uasset'
+[2019.11.08-01.39.45:690][124]LogPython: Display: Generating Python API stub file...
+[2019.11.08-01.39.46:012][124]LogPython: Display:   ...generating Python API: glue code
+[2019.11.08-01.39.46:166][124]LogPython: Display:   ...generating Python API: additional code
+[2019.11.08-01.39.46:205][124]LogPython: Display:   ...generated: D:/Git/UEGym/BasicScripting/Intermediate/PythonStub/unreal.py
+[2019.11.08-01.40.43:391][149]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.40.45:005][339]LogFactory: Error: Can't find file 'D:/Git/UEGym/BasicScripting/Assets/bunny_low1.FBX' for import
+[2019.11.08-01.40.45:005][339]LogAssetTools: Warning: Failed to import 'D:/Git/UEGym/BasicScripting/Assets/bunny_low1.FBX'. Failed to create asset '/Game/StaticMeshes/bunny_low1'.
+Please see Output Log for details.
+[2019.11.08-01.40.45:006][339]LogFileHelpers: No new changes to save!
+[2019.11.08-01.41.34:769][429]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2019.11.08-01.41.34:769][429]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L_Test1" FILE="../../../../../../Git/UEGym/BasicScripting/Saved/Autosaves/Game/L_Test1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.11.08-01.41.34:842][429]LogSavePackage: Moving '../../../../../../Git/UEGym/BasicScripting/Saved/L_Test1_Auto1900BF1DB4A12F711CD14788ACABABE43.tmp' to '../../../../../../Git/UEGym/BasicScripting/Saved/Autosaves/Game/L_Test1_Auto1.umap'
+[2019.11.08-01.41.34:843][429]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/L_Test1' took 0.099
+[2019.11.08-01.41.34:844][429]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.099
+[2019.11.08-01.41.58:638][ 28]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.42.00:159][207]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Git/UEGym/BasicScripting/Assets/bunny_low.FBX)
+[2019.11.08-01.42.00:166][207]LogFbx: Loading FBX Scene from D:/Git/UEGym/BasicScripting/Assets/bunny_low.FBX
+[2019.11.08-01.42.00:174][207]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.08-01.42.00:198][207]LogStaticMesh: Building static mesh bunny_low...
+[2019.11.08-01.42.00:232][207]LogStaticMesh: Built static mesh [0.03s] /Game/StaticMeshes/test/bunny_low.bunny_low
+[2019.11.08-01.42.00:252][207]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.08-01.42.00:274][207]The following assets could not be successfully checked out from source control:
+/Game/StaticMeshes/test/bunny_low
+[2019.11.08-01.42.00:283][207]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticMeshes/test/bunny_low" FILE="../../../../../../Git/UEGym/BasicScripting/Content/StaticMeshes/test/bunny_low.uasset" SILENT=true
+[2019.11.08-01.42.00:305][207]LogSavePackage: Moving '../../../../../../Git/UEGym/BasicScripting/Saved/bunny_lowDE449BA649BD8C237C255FA74C459061.tmp' to '../../../../../../Git/UEGym/BasicScripting/Content/StaticMeshes/test/bunny_low.uasset'
+[2019.11.08-01.42.03:271][561]LogSlate: Window 'Message Log' being destroyed
+[2019.11.08-01.42.03:277][561]LogSlate: Window 'Message Log' being destroyed
+[2019.11.08-01.42.06:701][969]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2019.11.08-01.42.07:699][969]LogSlate: Window 'Delete Assets' being destroyed
+[2019.11.08-01.42.07:749][969]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2019.11.08-01.42.07:776][969]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2019.11.08-01.42.07:800][969]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2019.11.08-01.43.02:673][908]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bunny_low2)
+[2019.11.08-01.43.06:333][341]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-01.49.44:668][266]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.49.50:516][882]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bunny_low)
+[2019.11.08-01.49.53:346][218]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bunny_low2)
+[2019.11.08-01.49.55:000][414]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bunny_low3)
+[2019.11.08-01.50.17:783][144]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.08-01.50.17:790][144]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Git/UEGym/BasicScripting/Assets/bunny_low.FBX)
+[2019.11.08-01.50.17:796][144]LogFbx: Loading FBX Scene from D:/Git/UEGym/BasicScripting/Assets/bunny_low.FBX
+[2019.11.08-01.50.17:803][144]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.08-01.50.17:835][144]LogStaticMesh: Building static mesh bunny_low...
+[2019.11.08-01.50.17:873][144]LogStaticMesh: Built static mesh [0.04s] /Game/StaticMeshes/test/bunny_low.bunny_low
+[2019.11.08-01.50.17:894][144]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.08-01.50.17:918][144]The following assets could not be successfully checked out from source control:
+/Game/StaticMeshes/test/bunny_low
+[2019.11.08-01.50.17:926][144]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticMeshes/test/bunny_low" FILE="../../../../../../Git/UEGym/BasicScripting/Content/StaticMeshes/test/bunny_low.uasset" SILENT=true
+[2019.11.08-01.50.17:948][144]LogSavePackage: Moving '../../../../../../Git/UEGym/BasicScripting/Saved/bunny_low459D57A44C2FC35A39D72A92CA0C2768.tmp' to '../../../../../../Git/UEGym/BasicScripting/Content/StaticMeshes/test/bunny_low.uasset'
+[2019.11.08-01.50.25:152][  3]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2019.11.08-01.50.26:224][  3]LogSlate: Window 'Delete Assets' being destroyed
+[2019.11.08-01.50.26:281][  3]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2019.11.08-01.50.26:310][  3]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2019.11.08-01.50.26:335][  3]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2019.11.08-01.50.27:105][ 95]LogSlate: Window 'Message Log' being destroyed
+[2019.11.08-01.50.27:110][ 95]LogSlate: Window 'Message Log' being destroyed
+[2019.11.08-01.50.32:344][721]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Git/UEGym/BasicScripting/Assets/bunny_low.FBX)
+[2019.11.08-01.50.32:350][721]LogFbx: Loading FBX Scene from D:/Git/UEGym/BasicScripting/Assets/bunny_low.FBX
+[2019.11.08-01.50.32:358][721]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.08-01.50.32:380][721]LogStaticMesh: Building static mesh bunny_low...
+[2019.11.08-01.50.32:415][721]LogStaticMesh: Built static mesh [0.03s] /Game/StaticMeshes/test/bunny_low.bunny_low
+[2019.11.08-01.50.32:434][721]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.08-01.50.32:455][721]The following assets could not be successfully checked out from source control:
+/Game/StaticMeshes/test/bunny_low
+[2019.11.08-01.50.32:463][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticMeshes/test/bunny_low" FILE="../../../../../../Git/UEGym/BasicScripting/Content/StaticMeshes/test/bunny_low.uasset" SILENT=true
+[2019.11.08-01.50.32:486][721]LogSavePackage: Moving '../../../../../../Git/UEGym/BasicScripting/Saved/bunny_low59D5D0244F672CFCC20BF283E80D8BE5.tmp' to '../../../../../../Git/UEGym/BasicScripting/Content/StaticMeshes/test/bunny_low.uasset'
+[2019.11.08-01.50.35:339][ 61]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/StaticMeshes/test/bunny_low.bunny_low
+[2019.11.08-01.50.35:735][ 61]LogRenderer: Reallocating scene render targets to support 1432x920 Format 10 NumSamples 1 (Frame:1).
+[2019.11.08-01.50.37:333][250]LogPython: Display: Generating Python API stub file...
+[2019.11.08-01.50.37:656][250]LogPython: Display:   ...generating Python API: glue code
+[2019.11.08-01.50.37:806][250]LogPython: Display:   ...generating Python API: additional code
+[2019.11.08-01.50.37:845][250]LogPython: Display:   ...generated: D:/Git/UEGym/BasicScripting/Intermediate/PythonStub/unreal.py
+[2019.11.08-01.50.38:732][356]LogSlate: Window 'Message Log' being destroyed
+[2019.11.08-01.50.38:737][356]LogSlate: Window 'Message Log' being destroyed
+[2019.11.08-01.50.43:698][942]LogEditorViewport: Clicking on Actor (LMB): BP_ExecutePython_C (BP_Test2)
+[2019.11.08-01.50.51:013][818]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-01.50.51:121][831]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.50.51:122][831]LogPython: Error:   File "<string>", line 1, in <module>
+[2019.11.08-01.50.51:122][831]LogPython: Error: NameError: name 'igg' is not defined
+[2019.11.08-01.51.09:048][ 76]LogEditorViewport: Clicking on Actor (LMB): BP_ExecutePython_C (BP_Test2)
+[2019.11.08-01.51.10:121][203]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-01.51.10:196][212]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.51.10:196][212]LogPython: Error:   File "<string>", line 1, in <module>
+[2019.11.08-01.51.10:196][212]LogPython: Error: NameError: name 'igg' is not defined
+[2019.11.08-01.51.33:990][952]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-01.51.34:073][962]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.51.34:073][962]LogPython: Error:   File "<string>", line 1, in <module>
+[2019.11.08-01.51.34:073][962]LogPython: Error: NameError: name 'igg' is not defined
+[2019.11.08-01.51.34:473][ 10]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.51.34:473][ 10]LogPython: Error:   File "<string>", line 1, in <module>
+[2019.11.08-01.51.34:473][ 10]LogPython: Error: NameError: name 'igg' is not defined
+[2019.11.08-01.52.01:794][924]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-01.52.01:795][924]LogPython: Error:   File "<string>", line 1, in <module>
+[2019.11.08-01.52.01:795][924]LogPython: Error: NameError: name 'igg' is not defined
+[2019.11.08-01.52.19:339][ 28]LogPython: import IGGLightArchiveTool as igg
+[2019.11.08-01.52.21:638][294]LogPython: Error: D:/Git/UEGym/BasicScripting/Content/Python\IGGLightArchiveTool.py:31: DeprecationWarning: DirectionalLight: Function 'get_brightness' on 'Light' is deprecated: Function 'GetBrightness' is deprecated.
+  propertyDist['Intensity'] = item.get_brightness()
+
+[2019.11.08-01.52.21:639][294]LogPython: Error: D:/Git/UEGym/BasicScripting/Content/Python\IGGLightArchiveTool.py:34: DeprecationWarning: DirectionalLight: Function 'get_light_color' on 'Light' is deprecated: Function 'GetLightColor' is deprecated.
+  propertyDist['LightColor'] = item.get_light_color().to_rgb_vector().to_tuple()
+
+[2019.11.08-01.52.21:639][294]LogPython: Error: D:/Git/UEGym/BasicScripting/Content/Python\IGGLightArchiveTool.py:31: DeprecationWarning: PointLight: Function 'get_brightness' on 'Light' is deprecated: Function 'GetBrightness' is deprecated.
+  propertyDist['Intensity'] = item.get_brightness()
+
+[2019.11.08-01.52.21:639][294]LogPython: Error: D:/Git/UEGym/BasicScripting/Content/Python\IGGLightArchiveTool.py:34: DeprecationWarning: PointLight: Function 'get_light_color' on 'Light' is deprecated: Function 'GetLightColor' is deprecated.
+  propertyDist['LightColor'] = item.get_light_color().to_rgb_vector().to_tuple()
+
+[2019.11.08-01.52.21:642][294]LogPython: Warning: Run IGGLightArchiveTool...
+[2019.11.08-01.52.21:643][294]LogPython: Warning: DONE!
+[2019.11.08-01.52.28:227][ 84]LogPython: Warning: Run IGGLightArchiveTool...
+[2019.11.08-01.52.28:227][ 84]LogPython: Warning: DONE!
+[2019.11.08-01.52.46:531][273]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_ExecutePython.BP_ExecutePython
+[2019.11.08-01.52.46:761][273]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 121 classes and 0 folders.
+[2019.11.08-01.52.47:370][273]LogSlate: Took 0.003317 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.11.08-01.52.48:524][408]LogPython: Display: Generating Python API stub file...
+[2019.11.08-01.52.48:847][408]LogPython: Display:   ...generating Python API: glue code
+[2019.11.08-01.52.48:997][408]LogPython: Display:   ...generating Python API: additional code
+[2019.11.08-01.52.49:037][408]LogPython: Display:   ...generated: D:/Git/UEGym/BasicScripting/Intermediate/PythonStub/unreal.py
+[2019.11.08-01.53.01:341][882]BlueprintLog: New page: Compile BP_ExecutePython
+[2019.11.08-01.53.01:457][882]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2019.11.08-01.53.01:870][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ExecutePython" FILE="../../../../../../Git/UEGym/BasicScripting/Content/BP_ExecutePython.uasset" SILENT=true
+[2019.11.08-01.53.01:886][928]LogSavePackage: Moving '../../../../../../Git/UEGym/BasicScripting/Saved/BP_ExecutePythonAC6B5A404D06165FA96AFCBFBD7830BE.tmp' to '../../../../../../Git/UEGym/BasicScripting/Content/BP_ExecutePython.uasset'
+[2019.11.08-01.53.03:512][122]LogPython: Warning: Run IGGLightArchiveTool...
+[2019.11.08-01.53.03:512][122]LogPython: Warning: DONE!
+[2019.11.08-01.53.07:532][603]LogPython: Warning: Run IGGLightArchiveTool...
+[2019.11.08-01.53.07:532][603]LogPython: Warning: DONE!
+[2019.11.08-01.53.10:526][962]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bunny_low3)
+[2019.11.08-01.53.33:377][434]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-01.53.33:453][434]LogSlate: Window 'BP_ExecutePython' being destroyed
+[2019.11.08-01.53.33:457][434]LogSlate: Window 'BP_ExecutePython' being destroyed
+[2019.11.08-01.53.36:544][628]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2019.11.08-01.53.36:545][628]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L_Test1" FILE="../../../../../../Git/UEGym/BasicScripting/Saved/Autosaves/Game/L_Test1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.11.08-01.53.36:649][628]LogSavePackage: Moving '../../../../../../Git/UEGym/BasicScripting/Saved/L_Test1_Auto2F00143B441FBD9F3BC65959155AACE5A.tmp' to '../../../../../../Git/UEGym/BasicScripting/Saved/Autosaves/Game/L_Test1_Auto2.umap'
+[2019.11.08-01.53.36:650][628]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/L_Test1' took 0.134
+[2019.11.08-01.53.36:651][628]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.134
+[2019.11.08-01.53.48:226][663]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2019.11.08-01.53.48:741][715]Cmd: DELETE
+[2019.11.08-01.53.48:741][715]Cmd: ACTOR DELETE
+[2019.11.08-01.53.48:743][715]LogEditorActor: Deleted Actor: PointLight
+[2019.11.08-01.53.48:770][715]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2019.11.08-01.53.48:770][715]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2019.11.08-01.53.49:414][793]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (igg)
+[2019.11.08-01.53.52:155][119]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-01.53.56:598][652]LogEditorViewport: Clicking on Actor (LMB): BP_ExecutePython_C (BP_Test2)
+[2019.11.08-01.54.02:186][321]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-01.54.10:933][369]LogEditorViewport: Clicking on Actor (context menu): BP_ExecutePython_C (BP_Test2)
+[2019.11.08-01.54.10:958][369]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.08-01.54.11:682][454]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.08-01.54.20:729][538]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_ExecutePython.BP_ExecutePython
+[2019.11.08-01.54.24:196][921]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.08-01.54.30:350][656]Cmd: DELETE
+[2019.11.08-01.54.30:350][656]Cmd: ACTOR DELETE
+[2019.11.08-01.54.30:351][656]LogEditorActor: Deleted Actor: BP_ExecutePython_C
+[2019.11.08-01.54.30:378][656]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2019.11.08-01.54.30:378][656]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2019.11.08-01.54.31:328][770]LogEditorViewport: Clicking on Actor (LMB): BP_ExecutePython_C (BP_Test2)
+[2019.11.08-01.54.34:650][167]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-01.54.44:673][369]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (igg)
+[2019.11.08-01.54.52:655][932]LogEditorViewport: Clicking on Actor (LMB): BP_ExecutePython_C (BP_Test2)
+[2019.11.08-01.54.54:366][115]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-01.54.54:439][124]LogSlate: Window 'BP_ExecutePython' being destroyed
+[2019.11.08-01.54.54:444][124]LogSlate: Window 'BP_ExecutePython' being destroyed
+[2019.11.08-01.54.56:660][384]LogEditorViewport: Clicking on Actor (LMB): BP_ExecutePython_C (BP_Test2)
+[2019.11.08-01.54.57:837][524]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-01.54.57:924][534]LogPython: Warning: Run IGGLightArchiveTool...
+[2019.11.08-01.54.57:924][534]LogPython: Warning: DONE!
+[2019.11.08-01.55.28:562][663]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-01.55.30:229][861]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2019.11.08-01.55.31:999][ 71]LogEditorViewport: Clicking on Actor (LMB): BP_ExecutePython_C (BP_Test2)
+[2019.11.08-01.55.33:231][217]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-01.55.33:323][228]LogPython: Error: D:/Git/UEGym/BasicScripting/Content/Python\IGGLightArchiveTool.py:31: DeprecationWarning: SpotLight: Function 'get_brightness' on 'Light' is deprecated: Function 'GetBrightness' is deprecated.
+  propertyDist['Intensity'] = item.get_brightness()
+
+[2019.11.08-01.55.33:323][228]LogPython: Error: D:/Git/UEGym/BasicScripting/Content/Python\IGGLightArchiveTool.py:34: DeprecationWarning: SpotLight: Function 'get_light_color' on 'Light' is deprecated: Function 'GetLightColor' is deprecated.
+  propertyDist['LightColor'] = item.get_light_color().to_rgb_vector().to_tuple()
+
+[2019.11.08-01.55.33:327][228]LogPython: Warning: Run IGGLightArchiveTool...
+[2019.11.08-01.55.33:327][228]LogPython: Warning: DONE!
+[2019.11.08-01.55.36:699][357]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2019.11.08-01.55.37:849][492]Cmd: DELETE
+[2019.11.08-01.55.37:849][492]Cmd: ACTOR DELETE
+[2019.11.08-01.55.37:850][492]LogEditorActor: Deleted Actor: SpotLight
+[2019.11.08-01.55.37:876][492]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2019.11.08-01.55.37:876][492]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2019.11.08-01.55.38:309][544]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2019.11.08-01.55.38:434][557]Cmd: DELETE
+[2019.11.08-01.55.38:434][557]Cmd: ACTOR DELETE
+[2019.11.08-01.55.38:435][557]LogEditorActor: Deleted Actor: PointLight
+[2019.11.08-01.55.38:459][557]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2019.11.08-01.55.38:459][557]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2019.11.08-01.55.40:446][796]LogEditorViewport: Clicking on Actor (LMB): BP_ExecutePython_C (BP_Test2)
+[2019.11.08-01.55.41:060][868]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-01.55.41:120][875]LogPython: Warning: Run IGGLightArchiveTool...
+[2019.11.08-01.55.41:120][875]LogPython: Warning: DONE!
+[2019.11.08-01.56.32:047][710]LogEditorViewport: Clicking on Actor (LMB): BP_ExecutePython_C (BP_Test2)
+[2019.11.08-01.56.33:199][847]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-01.56.33:276][856]LogPython: Warning: Run IGGLightArchiveTool...
+[2019.11.08-01.56.33:276][856]LogPython: Warning: DONE!
+[2019.11.08-01.56.35:573][936]LogPython: Warning: Run IGGLightArchiveTool...
+[2019.11.08-01.56.35:573][936]LogPython: Warning: DONE!
+[2019.11.08-01.56.42:283][585]LogPython: Warning: Run IGGLightArchiveTool...
+[2019.11.08-01.56.42:283][585]LogPython: Warning: DONE!
+[2019.11.08-01.56.46:608][636]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2019.11.08-01.56.47:542][744]Cmd: DELETE
+[2019.11.08-01.56.47:542][744]Cmd: ACTOR DELETE
+[2019.11.08-01.56.47:543][744]LogEditorActor: Deleted Actor: SkyLight
+[2019.11.08-01.56.47:570][744]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2019.11.08-01.56.47:571][744]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2019.11.08-01.57.08:519][258]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-01.57.19:255][545]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-01.57.32:559][390]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bunny_low)
+[2019.11.08-01.57.34:376][605]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bunny_low2)
+[2019.11.08-01.57.35:873][782]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bunny_low3)
+[2019.11.08-01.57.45:401][743]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-01.57.51:292][446]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2019.11.08-01.57.52:513][446]LogSlate: Window 'Delete Assets' being destroyed
+[2019.11.08-01.57.52:568][446]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2019.11.08-01.57.52:597][446]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2019.11.08-01.57.52:623][446]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2019.11.08-01.57.56:268][875]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Git/UEGym/BasicScripting/Assets/bunny_low.FBX)
+[2019.11.08-01.57.56:274][875]LogFbx: Loading FBX Scene from D:/Git/UEGym/BasicScripting/Assets/bunny_low.FBX
+[2019.11.08-01.57.56:282][875]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.08-01.57.56:304][875]LogStaticMesh: Building static mesh bunny_low...
+[2019.11.08-01.57.56:339][875]LogStaticMesh: Built static mesh [0.03s] /Game/StaticMeshes/test/bunny_low.bunny_low
+[2019.11.08-01.57.56:361][875]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.08-01.57.56:384][875]The following assets could not be successfully checked out from source control:
+/Game/StaticMeshes/test/bunny_low
+[2019.11.08-01.57.56:394][875]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticMeshes/test/bunny_low" FILE="../../../../../../Git/UEGym/BasicScripting/Content/StaticMeshes/test/bunny_low.uasset" SILENT=true
+[2019.11.08-01.57.56:416][875]LogSavePackage: Moving '../../../../../../Git/UEGym/BasicScripting/Saved/bunny_low89525C494245D7E6BAC8A48A705FA338.tmp' to '../../../../../../Git/UEGym/BasicScripting/Content/StaticMeshes/test/bunny_low.uasset'
+[2019.11.08-01.57.58:250][ 92]LogSlate: Window 'Message Log' being destroyed
+[2019.11.08-01.57.58:256][ 92]LogSlate: Window 'Message Log' being destroyed
+[2019.11.08-02.00.12:376][522]Cmd: DELETE
+[2019.11.08-02.00.12:376][522]Cmd: ACTOR DELETE
+[2019.11.08-02.00.12:377][522]LogEditorActor: Deleted Actor: SkyLight
+[2019.11.08-02.00.12:404][522]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2019.11.08-02.00.12:405][522]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2019.11.08-02.00.13:517][656]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-02.00.33:574][ 61]LogEditorViewport: Clicking on Actor (LMB): BP_ExecutePython_C (BP_Test2)
+[2019.11.08-02.00.34:461][166]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-02.00.35:487][289]LogPython: Warning: Run IGGLightArchiveTool...
+[2019.11.08-02.00.35:487][289]LogPython: Warning: DONE!
+[2019.11.08-02.00.36:531][414]LogPython: Warning: Run IGGLightArchiveTool...
+[2019.11.08-02.00.36:532][414]LogPython: Warning: DONE!
+[2019.11.08-02.02.00:836][ 49]LogPython: Error: D:/Git/UEGym/BasicScripting/Content/Python\IGGLightArchiveTool.py:33: DeprecationWarning: DirectionalLight: Function 'get_brightness' on 'Light' is deprecated: Function 'GetBrightness' is deprecated.
+  propertyDist['Rotation'] = t.to_tuple()[1].to_tuple() # euler
+
+[2019.11.08-02.02.00:837][ 49]LogPython: Error: D:/Git/UEGym/BasicScripting/Content/Python\IGGLightArchiveTool.py:36: DeprecationWarning: DirectionalLight: Function 'get_light_color' on 'Light' is deprecated: Function 'GetLightColor' is deprecated.
+  lightName = item.get_name()
+
+[2019.11.08-02.02.00:837][ 49]LogPython: Error: Traceback (most recent call last):
+[2019.11.08-02.02.00:837][ 49]LogPython: Error:   File "<string>", line 3, in <module>
+[2019.11.08-02.02.00:837][ 49]LogPython: Error:   File "D:/Git/UEGym/BasicScripting/Content/Python\IGGLightArchiveTool.py", line 62, in runTool
+[2019.11.08-02.02.00:837][ 49]LogPython: Error:     makeJson(makeLightDict(getAllLights()))
+[2019.11.08-02.02.00:837][ 49]LogPython: Error:   File "D:/Git/UEGym/BasicScripting/Content/Python\IGGLightArchiveTool.py", line 29, in makeLightDict
+[2019.11.08-02.02.00:837][ 49]LogPython: Error:     t = item.get_actor_transform()
+[2019.11.08-02.02.00:838][ 49]LogPython: Error: AttributeError: 'list' object has no attribute 'get_actor_transform'
+[2019.11.08-02.03.06:976][495]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2019.11.08-02.03.39:376][713]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2019.11.08-02.03.39:377][713]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L_Test1" FILE="../../../../../../Git/UEGym/BasicScripting/Saved/Autosaves/Game/L_Test1_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.11.08-02.03.39:482][713]LogSavePackage: Moving '../../../../../../Git/UEGym/BasicScripting/Saved/L_Test1_Auto35FED31E344E899874959EFBFFE145F64.tmp' to '../../../../../../Git/UEGym/BasicScripting/Saved/Autosaves/Game/L_Test1_Auto3.umap'
+[2019.11.08-02.03.39:485][713]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/L_Test1' took 0.133
+[2019.11.08-02.03.39:485][713]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.133
+[2019.11.08-02.03.50:440][296]LogEditorViewport: Clicking on Actor (LMB): BP_ExecutePython_C (BP_Test2)
+[2019.11.08-02.03.51:278][395]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-02.03.51:374][406]LogPython: Warning: Run IGGLightArchiveTool...
+[2019.11.08-02.03.51:374][406]LogPython: Warning: DONE!
+[2019.11.08-02.03.55:826][782]LogEditorViewport: Clicking on Actor (LMB): BP_ExecutePython_C (BP_Test2)
+[2019.11.08-02.03.56:640][878]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-02.03.56:715][887]LogPython: Error: D:/Git/UEGym/BasicScripting/Content/Python\IGGLightArchiveTool.py:33: DeprecationWarning: PointLight: Function 'get_brightness' on 'Light' is deprecated: Function 'GetBrightness' is deprecated.
+  propertyDist['Intensity'] = item.get_brightness()
+
+[2019.11.08-02.03.56:716][887]LogPython: Error: D:/Git/UEGym/BasicScripting/Content/Python\IGGLightArchiveTool.py:36: DeprecationWarning: PointLight: Function 'get_light_color' on 'Light' is deprecated: Function 'GetLightColor' is deprecated.
+  propertyDist['LightColor'] = item.get_light_color().to_rgb_vector().to_tuple()
+
+[2019.11.08-02.03.56:719][887]LogPython: Warning: Run IGGLightArchiveTool...
+[2019.11.08-02.03.56:719][887]LogPython: Warning: DONE!
+[2019.11.08-02.04.00:341][971]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2019.11.08-02.04.00:758][ 19]Cmd: DELETE
+[2019.11.08-02.04.00:758][ 19]Cmd: ACTOR DELETE
+[2019.11.08-02.04.00:760][ 19]LogEditorActor: Deleted Actor: PointLight
+[2019.11.08-02.04.00:787][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2019.11.08-02.04.00:788][ 19]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2019.11.08-02.04.01:418][ 94]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2019.11.08-02.04.04:521][463]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-02.04.16:990][914]LogRenderer: Reallocating scene render targets to support 1916x1016 Format 10 NumSamples 1 (Frame:182146).
+[2019.11.08-02.04.22:002][508]LogEditorViewport: Clicking on Actor (LMB): BP_ExecutePython_C (BP_Test2)
+[2019.11.08-02.04.26:565][ 53]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-02.04.35:257][ 95]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_ExecutePython.BP_ExecutePython
+[2019.11.08-02.04.52:155][ 84]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-02.04.52:231][ 93]LogSlate: Window 'BP_ExecutePython' being destroyed
+[2019.11.08-02.04.52:236][ 93]LogSlate: Window 'BP_ExecutePython' being destroyed
+[2019.11.08-02.04.53:774][271]LogEditorViewport: Clicking Background
+[2019.11.08-02.04.54:485][355]LogEditorViewport: Clicking on Actor (LMB): BP_ExecutePython_C (Python)
+[2019.11.08-02.05.00:385][ 58]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2019.11.08-02.05.02:379][292]LogEditorViewport: Clicking Background
+[2019.11.08-02.05.03:049][371]LogEditorViewport: Clicking on Actor (LMB): BP_ExecutePython_C (Python)
+[2019.11.08-02.05.03:760][454]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2019.11.08-02.05.06:893][825]LogEditorViewport: Clicking Background
+[2019.11.08-02.05.09:154][ 95]LogEditorViewport: Clicking on Actor (LMB): BP_ExecutePython_C (Python)
+[2019.11.08-02.05.14:531][736]LogEditorViewport: Clicking Background
+[2019.11.08-02.05.50:054][676]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-02.05.55:774][350]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-02.05.58:599][646]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bunny_low3)
+[2019.11.08-02.06.10:767][102]LogEditorViewport: Clicking Background
+[2019.11.08-02.06.11:445][182]LogEditorViewport: Clicking Background
+[2019.11.08-02.06.11:932][240]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bunny_low3)
+[2019.11.08-02.06.14:131][500]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bunny_low2)
+[2019.11.08-02.06.15:078][610]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bunny_low)
+[2019.11.08-02.06.38:877][462]LogEditorViewport: Clicking Background
+[2019.11.08-02.06.51:711][420]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-02.06.57:337][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2019.11.08-02.06.58:197][ 62]LogSlate: Window 'Delete Assets' being destroyed
+[2019.11.08-02.06.58:253][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2019.11.08-02.06.58:283][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2019.11.08-02.06.58:308][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2019.11.08-02.07.02:574][534]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-02.13.40:146][846]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2019.11.08-02.13.40:146][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L_Test1" FILE="../../../../../../Git/UEGym/BasicScripting/Saved/Autosaves/Game/L_Test1_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.11.08-02.13.40:252][846]LogSavePackage: Moving '../../../../../../Git/UEGym/BasicScripting/Saved/L_Test1_Auto44DB0F7DF400174A37AFD91BE88CD9C09.tmp' to '../../../../../../Git/UEGym/BasicScripting/Saved/Autosaves/Game/L_Test1_Auto4.umap'
+[2019.11.08-02.13.40:255][846]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/L_Test1' took 0.132
+[2019.11.08-02.13.40:255][846]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.132
+[2019.11.08-02.36.37:089][941]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.08-02.36.39:509][217]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2019.11.08-02.36.39:519][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L_Test1" FILE="../../../../../../Git/UEGym/BasicScripting/Content/L_Test1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.08-02.36.39:547][217]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2019.11.08-02.36.39:650][217]LogSavePackage: Moving '../../../../../../Git/UEGym/BasicScripting/Saved/L_Test1295E129A467C54102914EDA7B209DAFC.tmp' to '../../../../../../Git/UEGym/BasicScripting/Content/L_Test1.umap'
+[2019.11.08-02.36.39:669][217]LogFileHelpers: Saving map 'L_Test1' took 0.150
+[2019.11.08-14.27.12:583][162]LogHttp: Warning: 00000206888882C0: request failed, libcurl error: 28 (Timeout was reached)
+[2019.11.08-14.27.12:584][162]LogHttp: Warning: 00000206888882C0: libcurl info message cache 0 (Connection 353 seems to be dead!)
+[2019.11.08-14.27.12:584][162]LogHttp: Warning: 00000206888882C0: libcurl info message cache 1 (Closing connection 353)
+[2019.11.08-14.27.12:584][162]LogHttp: Warning: 00000206888882C0: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.11.08-14.27.12:584][162]LogHttp: Warning: 00000206888882C0: libcurl info message cache 3 (  Trying 3.214.16.87...)
+[2019.11.08-14.27.12:584][162]LogHttp: Warning: 00000206888882C0: libcurl info message cache 4 (TCP_NODELAY set)
+[2019.11.08-14.27.12:584][162]LogHttp: Warning: 00000206888882C0: libcurl info message cache 5 (Connected to datarouter.ol.epicgames.com (3.214.16.87) port 443 (#354))
+[2019.11.08-14.27.12:584][162]LogHttp: Warning: 00000206888882C0: libcurl info message cache 6 (ALPN, offering http/1.1)
+[2019.11.08-14.27.12:584][162]LogHttp: Warning: 00000206888882C0: libcurl info message cache 7 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.11.08-14.27.12:585][162]LogHttp: Warning: 00000206888882C0: libcurl info message cache 8 (SSL re-using session ID)
+[2019.11.08-14.27.12:585][162]LogHttp: Warning: 00000206888882C0: libcurl info message cache 9 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.11.08-14.27.12:585][162]LogHttp: Warning: 00000206888882C0: libcurl info message cache 10 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2019.11.08-14.27.12:585][162]LogHttp: Warning: 00000206888882C0: libcurl info message cache 11 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2019.11.08-14.27.12:585][162]LogHttp: Warning: 00000206888882C0: libcurl info message cache 12 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2019.11.08-14.27.12:585][162]LogHttp: Warning: 00000206888882C0: libcurl info message cache 13 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2019.11.08-14.27.12:585][162]LogHttp: Warning: 00000206888882C0: libcurl info message cache 14 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2019.11.08-14.27.12:585][162]LogHttp: Warning: 00000206888882C0: libcurl info message cache 15 (TLSv1.2 (OUT), TLS change cipher, Client hello (1):)
+[2019.11.08-14.27.12:585][162]LogHttp: Warning: 00000206888882C0: libcurl info message cache 16 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2019.11.08-14.27.12:585][162]LogHttp: Warning: 00000206888882C0: libcurl info message cache 17 (Operation timed out after 60000 milliseconds with 0 out of 0 bytes received)
+[2019.11.08-14.27.12:586][162]LogHttp: Warning: 00000206888882C0: libcurl info message cache 18 (Closing connection 354)
+[2019.11.08-14.27.12:586][162]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B77B860DF-493D-A47F-EDDC-978A497A9567%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=46d13a6741ca9bd6998950bfb3e409e5%7C894d73b3c48046cb86ff7e4e99bb4209%7C3520fb30-bffa-487f-84af-b0ae783e2152&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.11.08-18.24.56:949][603]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.08-18.26.30:023][419]LogSlate: Window 'Viewport 1' being destroyed
+[2019.11.08-18.26.56:797][138]LogPython: import QtFunctions
+import QtWindowIGG
+reload(QtWindowIGG)
+qt = None
+qt = QtWindowIGG.QtWindowIGG
+QtFunctions.spawnQtWindow(qt)
+[2019.11.08-18.27.07:548][413]LogEditorViewport: Clicking on Actor (LMB): BP_ExecutePython_C (Python)
+[2019.11.08-18.27.09:995][704]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.08-18.27.11:482][882]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.08-18.27.11:484][882]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_ExecutePython.BP_ExecutePython
+[2019.11.08-18.28.01:212][795]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2019.11.08-18.28.01:212][795]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/L_Test1' took 0.031
+[2019.11.08-18.28.01:213][795]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_ExecutePython] ([1] browsable assets)...
+[2019.11.08-18.28.01:213][795]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_ExecutePython]
+[2019.11.08-18.28.01:213][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ExecutePython" FILE="../../../../../../Git/UEGym/BasicScripting/Saved/Autosaves/Game/BP_ExecutePython_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2019.11.08-18.28.01:236][795]LogSavePackage: Moving '../../../../../../Git/UEGym/BasicScripting/Saved/BP_ExecutePython_Auto51BE8DF0C4DB40758D12897992EF79D5F.tmp' to '../../../../../../Git/UEGym/BasicScripting/Saved/Autosaves/Game/BP_ExecutePython_Auto5.uasset'
+[2019.11.08-18.28.01:236][795]LogFileHelpers: Auto-saving content packages took 0.023
+[2019.11.08-18.30.36:065][372]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-18.30.57:657][954]LogBlueprintActionDatabase: Requesting refresh due to module change: ExternalImagePicker (loaded)
+[2019.11.08-18.30.58:328][954]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.11.08-18.30.59:618][ 62]LogPython: Display: Generating Python API stub file...
+[2019.11.08-18.30.59:953][ 62]LogPython: Display:   ...generating Python API: glue code
+[2019.11.08-18.31.00:111][ 62]LogPython: Display:   ...generating Python API: additional code
+[2019.11.08-18.31.00:225][ 62]LogPython: Display:   ...generated: D:/Git/UEGym/BasicScripting/Intermediate/PythonStub/unreal.py
+[2019.11.08-18.34.33:854][470]BlueprintLog: New page: Compile BP_ExecutePython
+[2019.11.08-18.34.34:047][470]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2019.11.08-18.34.35:612][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ExecutePython" FILE="../../../../../../Git/UEGym/BasicScripting/Content/BP_ExecutePython.uasset" SILENT=true
+[2019.11.08-18.34.35:629][646]LogSavePackage: Moving '../../../../../../Git/UEGym/BasicScripting/Saved/BP_ExecutePython786EED904AEC4DA9DE9A1FA3DEDF15F6.tmp' to '../../../../../../Git/UEGym/BasicScripting/Content/BP_ExecutePython.uasset'
+[2019.11.08-18.34.46:448][919]BlueprintLog: New page: Compile BP_ExecutePython
+[2019.11.08-18.34.46:613][919]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2019.11.08-18.35.02:860][970]LogEditorTransaction: Undo Delete current selection
+[2019.11.08-18.35.12:239][837]LogBlueprint: Warning: [Compiler ] Pasted node  CustomEvent   conflicted with  IGG - Archive Light Info  and was replaced as a Custom Event!
+[2019.11.08-18.35.20:035][736]BlueprintLog: New page: Compile BP_ExecutePython
+[2019.11.08-18.35.20:180][736]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2019.11.08-18.35.48:724][873]BlueprintLog: New page: Compile BP_ExecutePython
+[2019.11.08-18.35.48:873][873]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2019.11.08-18.35.49:511][946]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ExecutePython" FILE="../../../../../../Git/UEGym/BasicScripting/Content/BP_ExecutePython.uasset" SILENT=true
+[2019.11.08-18.35.49:524][946]LogSavePackage: Moving '../../../../../../Git/UEGym/BasicScripting/Saved/BP_ExecutePython6BFA48604B6BD82EFF7FB79BEDF9E438.tmp' to '../../../../../../Git/UEGym/BasicScripting/Content/BP_ExecutePython.uasset'
+[2019.11.08-18.35.54:520][329]LogSlate: Window 'Project Settings' being destroyed
+[2019.11.08-18.35.54:527][329]LogSlate: Window 'Project Settings' being destroyed
+[2019.11.08-18.36.42:886][ 41]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bunny_low3)
+[2019.11.08-18.38.11:362][899]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2019.11.08-18.38.11:362][899]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L_Test1" FILE="../../../../../../Git/UEGym/BasicScripting/Saved/Autosaves/Game/L_Test1_Auto6.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.11.08-18.38.11:488][899]LogSavePackage: Moving '../../../../../../Git/UEGym/BasicScripting/Saved/L_Test1_Auto60EE2E57844856E62C78FC5B67D376377.tmp' to '../../../../../../Git/UEGym/BasicScripting/Saved/Autosaves/Game/L_Test1_Auto6.umap'
+[2019.11.08-18.38.11:492][899]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/L_Test1' took 0.160
+[2019.11.08-18.38.11:492][899]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.160
+[2019.11.08-18.40.19:841][284]LogEditorViewport: Clicking on Actor (LMB): BP_ExecutePython_C (Python)
+[2019.11.08-18.40.21:297][454]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-18.40.22:457][591]LogPython: Error: Traceback (most recent call last):
+
+[2019.11.08-18.40.22:458][591]LogPython: Error:   File "D:\Git\UEGym\BasicScripting\Plugins\UnrealPythonLibraryPlugin\Content\Python\QtWindows\QtWindowIGG.py", line 55, in importAssets
+
+[2019.11.08-18.40.22:458][591]LogPython: Error:     
+[2019.11.08-18.40.22:458][591]LogPython: Error: unreal.AssetToolsHelpers.get_asset_tools().import_assets_with_dialog()
+
+[2019.11.08-18.40.22:458][591]LogPython: Error: TypeError
+[2019.11.08-18.40.22:458][591]LogPython: Error: : 
+[2019.11.08-18.40.22:458][591]LogPython: Error: import_assets_with_dialog() required argument 'destination_path' (pos 1) not found
+[2019.11.08-18.40.22:458][591]LogPython: Error: 
+
+[2019.11.08-18.40.27:863][184]LogSlate: Window 'BP_ExecutePython' being destroyed
+[2019.11.08-18.40.27:868][184]LogSlate: Window 'BP_ExecutePython' being destroyed
+[2019.11.08-18.46.22:765][525]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.08-18.46.22:765][525]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.08-18.46.22:765][525]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.08-18.46.22:765][525]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.08-18.46.22:765][525]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.08-18.47.12:455][526]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (49.689 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.08-22.13.09:880][706]LogEditorViewport: Clicking on Actor (context menu): BP_ExecutePython_C (Python)
+[2019.11.08-22.13.09:903][706]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.08-22.13.10:684][799]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.08-22.13.10:690][799]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_ExecutePython.BP_ExecutePython
+[2019.11.08-22.13.26:328][564]BlueprintLog: New page: Compile BP_ExecutePython
+[2019.11.08-22.13.26:490][564]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2019.11.08-22.13.26:885][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ExecutePython" FILE="../../../../../../Git/UEGym/BasicScripting/Content/BP_ExecutePython.uasset" SILENT=true
+[2019.11.08-22.13.26:907][608]LogSavePackage: Moving '../../../../../../Git/UEGym/BasicScripting/Saved/BP_ExecutePython0CA9D00B449A24EE3CFFD6B60C53D23E.tmp' to '../../../../../../Git/UEGym/BasicScripting/Content/BP_ExecutePython.uasset'
+[2019.11.08-22.13.28:015][739]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-22.13.28:080][747]LogSlate: Window 'BP_ExecutePython' being destroyed
+[2019.11.08-22.13.28:086][747]LogSlate: Window 'BP_ExecutePython' being destroyed
+[2019.11.08-22.13.28:997][850]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-22.13.40:822][886]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bunny_low3)
+[2019.11.08-22.14.05:310][676]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.08-22.14.05:368][676]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2019.11.08-22.14.05:368][676]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L_Test1" FILE="../../../../../../Git/UEGym/BasicScripting/Saved/Autosaves/Game/L_Test1_Auto7.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.11.08-22.14.05:473][676]LogSavePackage: Moving '../../../../../../Git/UEGym/BasicScripting/Saved/L_Test1_Auto7512ADC7445BA86799438BFA3A19B0A9D.tmp' to '../../../../../../Git/UEGym/BasicScripting/Saved/Autosaves/Game/L_Test1_Auto7.umap'
+[2019.11.08-22.14.05:477][676]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/L_Test1' took 0.150
+[2019.11.08-22.14.05:477][676]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.150
+[2019.11.08-22.15.04:540][762]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-22.15.06:743][ 26]LogEditor: Attempting to add actor of class 'CineCameraActor' to level at 650.00,-460.00,570.00
+[2019.11.08-22.15.07:303][ 87]LogEditor: Attempting to add actor of class 'CineCameraActor' to level at 650.00,-460.00,570.00
+[2019.11.08-22.21.11:384][744]LogEditorViewport: Clicking on Actor (LMB): CineCameraActor (CineCameraActor1)
+[2019.11.08-22.21.12:151][835]Cmd: DELETE
+[2019.11.08-22.21.12:151][835]Cmd: ACTOR DELETE
+[2019.11.08-22.21.12:153][835]LogEditorActor: Deleted Actor: CineCameraActor
+[2019.11.08-22.21.12:202][835]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2019.11.08-22.21.12:203][835]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2019.11.08-22.22.19:591][302]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-22.23.27:533][101]LogEditorViewport: Clicking on Actor (LMB): BP_ExecutePython_C (Python)
+[2019.11.08-22.23.29:863][378]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-22.23.31:336][552]LogEditorScripting: DuplicateDirectory. No asset to duplicate.
+[2019.11.08-22.24.16:607][933]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2019.11.08-22.24.16:608][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L_Test1" FILE="../../../../../../Git/UEGym/BasicScripting/Saved/Autosaves/Game/L_Test1_Auto8.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.11.08-22.24.16:714][933]LogSavePackage: Moving '../../../../../../Git/UEGym/BasicScripting/Saved/L_Test1_Auto8F31357054EFB521A3758AE822698B8B1.tmp' to '../../../../../../Git/UEGym/BasicScripting/Saved/Autosaves/Game/L_Test1_Auto8.umap'
+[2019.11.08-22.24.16:717][933]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/L_Test1' took 0.136
+[2019.11.08-22.24.16:717][933]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.136
+[2019.11.08-22.49.17:825][971]LogOutputDevice: Warning: 
+
+Script Stack (1 frames):
+EditorAssetLibrary.DuplicateDirectory
+
+[2019.11.08-22.49.17:825][971]LogWindows: Windows GetLastError: The operation completed successfully. (0)

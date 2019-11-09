@@ -343,3 +343,28 @@ def closeAssets(asset_objects=[]):
 # color: obj unreal.LinearColor : The color to apply
 def setDirectoryColor(path='', color=None):
     unreal.CppLib.set_folder_color(path, color)
+
+
+# Victor ########################################################################################################################################################################################
+
+import shutil
+import errno
+ 
+def copy(src, dest):
+    try:
+        shutil.copytree(src, dest)
+    except OSError as e:
+        # If the error was caused because the source wasn't a directory
+        if e.errno == errno.ENOTDIR:
+            shutil.copy(src, dest)
+        else:
+            print('Directory not copied. Error: %s' % e)
+
+def createShotFolders(shotTag, shotNo):
+    name = str(shotTag) + '_' + str(shotNo)
+    templatePath = unreal.Paths.project_config_dir() + '_template/TEM_0000'
+    contentPath = unreal.Paths.project_content_dir()
+    destPath = contentPath + '_shot/' + str(shotTag) + '/' + name
+    copy(templatePath, destPath)
+    print("Created new folder structure: \n" + destPath)
+    # setDirectoryColor(destPath, unreal.LinearColor(1,0,0,1))

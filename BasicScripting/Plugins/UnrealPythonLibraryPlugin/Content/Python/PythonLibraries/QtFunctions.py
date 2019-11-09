@@ -19,6 +19,7 @@ def __QtWindowClosed__(window=None):
 
 # This part is for the initial setup. Need to run once to spawn the application.
 unreal_app = QtGui.QApplication.instance()
+unreal_app.setStyle('Windows')
 if not unreal_app:
 	unreal_app = QtGui.QApplication(sys.argv)
 	tick_handle = unreal.register_slate_post_tick_callback(__QtAppTick__)

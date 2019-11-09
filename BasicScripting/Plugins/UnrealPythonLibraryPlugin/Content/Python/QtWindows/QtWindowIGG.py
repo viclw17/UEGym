@@ -48,10 +48,12 @@ class QtWindowIGG(QtGui.QWidget):
 		self.widget.button_Import.clicked.connect(self.importAssets)
 
 	def importAssets(self):
-		static_mesh_fbx = 'D:/Git/UEGym/BasicScripting/Assets/bunny_low.FBX'
-		skeletal_mesh_fbx = 'D:/Git/UEGym/BasicScripting/Assets/SK_FBX_Tube.FBX'
-		task = af.buildImportTask(static_mesh_fbx, '/Game/StaticMeshes/test', af.buildStaticMeshImportOptions())
-		af.executeImportTasks([task])
+		# static_mesh_fbx = 'D:/Git/UEGym/BasicScripting/Assets/bunny_low.FBX'
+		# skeletal_mesh_fbx = 'D:/Git/UEGym/BasicScripting/Assets/SK_FBX_Tube.FBX'
+		# task = af.buildImportTask(static_mesh_fbx, '/Game/StaticMeshes/test', af.buildStaticMeshImportOptions())
+		# af.executeImportTasks([task])
+		unreal.AssetToolsHelpers.get_asset_tools().import_assets_with_dialog('D:/Git/UEGym/BasicScripting/Assets/')
+
 
 	def moveSelectedActorInScene(self):
 		# print("clicked!")
@@ -87,3 +89,5 @@ class QtWindowIGG(QtGui.QWidget):
 
 			if self.isRotate:
 				self.selectedActor.add_actor_world_rotation(unreal.Rotator(0.0, 0.0, speed), False, False)
+
+
