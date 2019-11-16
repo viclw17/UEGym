@@ -37,9 +37,11 @@ def addSkeletalAnimationTrackOnPossessable(animation_path='', possessable=None):
 
 
 def addSkeletalAnimationTrackOnActor_EXAMPLE():
-    sequence_path = '/Game/ExampleAssets/Sequences/SEQ_Test'
-    animation_path = '/Game/ExampleAssets/Animations/AN_Tutorial_Idle'
-    actor_in_world = unreal.GameplayStatics.get_all_actors_of_class(unreal.EditorLevelLibrary.get_editor_world(), unreal.SkeletalMeshActor)()[0]
+    sequence_path = '/Game/_shot/SEQ_Test'
+    # animation_path = '/Game/ExampleAssets/Animations/AN_Tutorial_Idle'
+    animation_path = '/Game/_shot/SK_FBX_Tube_Animation'
+    world = unreal.EditorLevelLibrary.get_editor_world()[0]
+    actor_in_world = unreal.GameplayStatics.get_all_actors_of_class(world, unreal.SkeletalMeshActor)[0]
     possessable_in_sequence = getOrAddPossessableInSequenceAsset(sequence_path, actor_in_world)
     addSkeletalAnimationTrackOnPossessable(animation_path, possessable_in_sequence)
 

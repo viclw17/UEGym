@@ -234,17 +234,22 @@ def buildImportTask(filename='', destination_path='', options=None):
     task.set_editor_property('options', options)
     return task
 
+def buildImportTaskIGG(filename='', destination_path=''):
+    task = unreal.AutomatedAssetImportData()
+    task.set_editor_property('destination_path', destination_path)
+    task.set_editor_property('filenames', [filename])
+    return task
 
 # tasks: obj List : The import tasks object. You can get them from buildImportTask()
 # return: str List : The paths of successfully imported assets
 def executeImportTasks(tasks=[]):
     unreal.AssetToolsHelpers.get_asset_tools().import_asset_tasks(tasks)
+    # unreal.AssetToolsHelpers.get_asset_tools().import_assets_automated(tasks)
     imported_asset_paths = []
     for task in tasks:
         for path in task.get_editor_property('imported_object_paths'):
             imported_asset_paths.append(path)
     return imported_asset_paths
-
 
 # return: obj : Import option object. The basic import options for importing a static mesh
 def buildStaticMeshImportOptions():
@@ -264,22 +269,27 @@ def buildStaticMeshImportOptions():
     options.static_mesh_import_data.set_editor_property('auto_generate_collision', True)
     return options
 
-
 # return: obj : Import option object. The basic import options for importing a skeletal mesh
 def buildSkeletalMeshImportOptions():
     options = unreal.FbxImportUI()
     # unreal.FbxImportUI
-    options.set_editor_property('import_mesh', True)
-    options.set_editor_property('import_textures', True)
-    options.set_editor_property('import_materials', True)
+    # options.set_editor_property('import_mesh', True)
+    options.set_editor_property('import_textures', False)
+    options.set_editor_property('import_materials', False)
     options.set_editor_property('import_as_skeletal', True)  # Skeletal Mesh
+
+    # Victor
+    options.set_editor_property('create_physics_asset', False)
+    options.set_editor_property('import_animations', False)
+    options.set_editor_property('mesh_type_to_import', unreal.FBXImportType.FBXIT_SKELETAL_MESH)
+
     # unreal.FbxMeshImportData
     options.skeletal_mesh_import_data.set_editor_property('import_translation', unreal.Vector(0.0, 0.0, 0.0))
     options.skeletal_mesh_import_data.set_editor_property('import_rotation', unreal.Rotator(0.0, 0.0, 0.0))
     options.skeletal_mesh_import_data.set_editor_property('import_uniform_scale', 1.0)
     # unreal.FbxSkeletalMeshImportData
     options.skeletal_mesh_import_data.set_editor_property('import_morph_targets', True)
-    options.skeletal_mesh_import_data.set_editor_property('update_skeleton_reference_pose', False)
+    options.skeletal_mesh_import_data.set_editor_property('update_skeleton_reference_pose', True)
     return options
 
 
