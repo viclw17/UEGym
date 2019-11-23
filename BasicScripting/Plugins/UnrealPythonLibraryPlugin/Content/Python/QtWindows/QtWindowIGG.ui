@@ -264,10 +264,16 @@
      <property name="layoutDirection">
       <enum>Qt::LeftToRight</enum>
      </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(188, 188, 188);</string>
+     </property>
      <property name="currentIndex">
       <number>1</number>
      </property>
      <widget class="QWidget" name="tab">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
       <attribute name="title">
        <string>Tab 1</string>
       </attribute>
@@ -290,7 +296,7 @@
         <item>
          <widget class="QLabel" name="label_MakeShotFolders">
           <property name="text">
-           <string>Make Shot Folders</string>
+           <string>Make Shot Folder Structure</string>
           </property>
          </widget>
         </item>
@@ -351,10 +357,19 @@
             <property name="text">
              <string>Shot No.</string>
             </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
            </widget>
           </item>
           <item>
            <widget class="QLineEdit" name="lineEdit_ShotNo">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
             <property name="maxLength">
              <number>4</number>
             </property>
@@ -377,7 +392,7 @@
         <item>
          <widget class="QPushButton" name="button_MakeFolders">
           <property name="text">
-           <string>Make Folders</string>
+           <string>Make Folder Structure</string>
           </property>
          </widget>
         </item>
@@ -397,7 +412,7 @@
          <x>10</x>
          <y>10</y>
          <width>211</width>
-         <height>131</height>
+         <height>159</height>
         </rect>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_3">
@@ -413,9 +428,56 @@
            <bool>true</bool>
           </property>
           <property name="text">
-           <string>Load Asset</string>
+           <string>Mesh Asset Import Tool</string>
           </property>
          </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_ShotTags2">
+          <item>
+           <widget class="QRadioButton" name="shotTag_BT_3">
+            <property name="font">
+             <font>
+              <weight>50</weight>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="layoutDirection">
+             <enum>Qt::LeftToRight</enum>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>BT</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="shotTag_JG_3">
+            <property name="text">
+             <string>JG</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="shotTag_PJG_3">
+            <property name="text">
+             <string>PJG</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="shotTag_DEV_3">
+            <property name="text">
+             <string>DEV</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
         </item>
         <item>
          <layout class="QHBoxLayout" name="horizontalLayout_2">
@@ -434,7 +496,7 @@
              <enum>Qt::LeftToRight</enum>
             </property>
             <property name="text">
-             <string>Asset Folder</string>
+             <string>Shot No.</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
@@ -444,7 +506,7 @@
           <item>
            <widget class="QLineEdit" name="lineEdit_CurrentShot">
             <property name="sizePolicy">
-             <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
@@ -453,7 +515,7 @@
              <number>8</number>
             </property>
             <property name="placeholderText">
-             <string>jg-0130</string>
+             <string>0130</string>
             </property>
            </widget>
           </item>
@@ -469,6 +531,12 @@
           </property>
           <item>
            <widget class="QPushButton" name="button_Load">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
             <property name="text">
              <string>Load</string>
             </property>
@@ -477,7 +545,7 @@
           <item>
            <widget class="QLineEdit" name="lineEdit_Path">
             <property name="sizePolicy">
-             <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
@@ -499,6 +567,12 @@
           </property>
           <item>
            <widget class="QPushButton" name="button_ImportFolder">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
             <property name="text">
              <string>Import Folder</string>
             </property>
@@ -507,7 +581,7 @@
           <item>
            <widget class="QLineEdit" name="lineEdit_ImportPath">
             <property name="sizePolicy">
-             <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
