@@ -1,0 +1,23 @@
+#pragma once
+
+//RMstruct RM;
+float4 Col;
+float3 pos = WorldPosition;
+
+for (int i=0; i<MaxSteps; i++){
+    //Col += 1.0/MaxSteps;
+
+    if(SceneDepth < length(pos - CameraPosition))
+        break;
+
+    //float distance = RM.RMSphere(pos);
+    float distance = length(pos-ObjectPosition) - 50;
+
+    if (distance<0.01){
+        Col=1;
+        break;
+    }
+    pos += CameraVector * distance;
+}
+
+return Col;

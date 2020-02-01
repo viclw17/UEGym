@@ -1,12 +1,16 @@
 import unreal
 import sys, os
-sys.path.append('C:/Python27/Lib/site-packages')
+import re
+# sys.path.append('C:/Python27/Lib/site-packages')
+# sys.path.append
 from PySide import QtGui, QtUiTools
 from PySide import QtCore
 
 import WorldFunctions as wf
 import AssetFunctions as af
 import SequencerFunctions as sf
+
+import IGGUnrealBatchRender as br
 
 
 WINDOW_NAME = 'IGG Unreal'
@@ -21,7 +25,6 @@ class QtWindowIGG(QtGui.QWidget):
 		self.setWindowTitle(WINDOW_NAME)
 		# self.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint) # victor
 		self.setFixedSize(self.widget.width(), self.widget.height()) # victor
-		# self.setGeometry(100, 100, self.widget.width(), self.widget.height())
 		self.initialiseWidget()
 
 	def closeEvent(self, event):
@@ -30,40 +33,36 @@ class QtWindowIGG(QtGui.QWidget):
 		event.accept()
 
 	def eventTick(self, delta_seconds):
-		# self.myTick(delta_seconds)
 		pass
 
 	##########################################
 
 	def initialiseWidget(self):
-		# self.time_while_this_window_is_open = 0.0
-		# self.selectedActor = None
-		# self.isMove = False
-		# self.isRotate = False
-		# self.actor_is_going_up = True
-		# self.widget.button_Move.clicked.connect(self.moveSelectedActorInScene)
-		# self.widget.button_Rotate.clicked.connect(self.rotateSelectedActorInScene)
-		
 		##########################################
-
+		# Make folder
 		self.widget.button_MakeFolders.clicked.connect(self.makeFolders)  
+		# Import
 		self.widget.button_Load.clicked.connect(self.loadAssetDialog)
 		self.widget.button_ImportFolder.clicked.connect(self.selectImportFolderDialog)
-
-		# Import
 		self.widget.button_ImportSM.clicked.connect(self.importSM)
 		# self.widget.button_ImportSK.clicked.connect(self.importSK)
 		# self.widget.button_ImportAnim.clicked.connect(self.importAnim) 
+		# BatchRender
+		self.level = ''
+		self.seq = ''
+		self.widget.button_LoadLevel.clicked.connect(self.loadLevel)
+		self.widget.button_LoadSeq.clicked.connect(self.loadSeq)
+		self.widget.button_BatchRender.clicked.connect(self.batchRender)
 
 
 	def loadAssetDialog(self):
 		# hard coded path to X drive
 		drivePath = 'X:/Projects/LME_20190708_LordsMobileEncounter/3d/03_Workflow/'
-
-		shotTags = (self.widget.horizontalLayout_ShotTags2.itemAt(i)
-                    for i in range(self.widget.horizontalLayout_ShotTags2.count()))
-		shotTag = [i.widget().text() for i in shotTags if i.widget().isChecked()][0]
-		shotNo = self.widget.lineEdit_CurrentShot.text()
+		ret = self.getShotFolderName(
+			self.widget.horizontalLayout_CurrentShotTags, 
+			self.widget.lineEdit_CurrentShot)
+		shotTag = ret[0]
+		shotNo = ret[1]  # self.widget.lineEdit_CurrentShot.text()
 		shotPath = shotTag + '-' + shotNo
 		# print shotPath
 		# if not empty, modify the path to point to the shot folder
@@ -139,18 +138,13 @@ class QtWindowIGG(QtGui.QWidget):
 				af.showAssetsInContentBrowser([importPath + '/' + fileName])
 			
 
-	def getShotFolderName(self):
-		shotTags = (self.widget.horizontalLayout_ShotTags.itemAt(i)
-                    for i in range(self.widget.horizontalLayout_ShotTags.count()))
-		shotTag = [i.widget().text() for i in shotTags if i.widget().isChecked()][0]
-		shotNo = self.widget.lineEdit_ShotNo.text()
-		return [shotTag, shotNo]
+	
 
 	def makeFolders(self):
-		# pass
-		name = self.getShotFolderName()
-		# check if name provided
-		if name[0] and name[1]:
+		if re.match('^[0-9]{4}$', self.widget.lineEdit_ShotNo.text()):
+			name = self.getShotFolderName(
+				self.widget.horizontalLayout_ShotTags, 
+				self.widget.lineEdit_ShotNo)
 			path = '/Game/_shot/' + str(name[0]) + '/' + str(name[0]) + '_' + str(name[1])
 			# check if folder exists 
 			if not unreal.EditorAssetLibrary.does_directory_exist(path):
@@ -161,44 +155,81 @@ class QtWindowIGG(QtGui.QWidget):
 					"Warning"), self.tr("Folder already exist!        "))
 		else:
 			QtGui.QMessageBox.warning(self, self.tr(
-                            "Warning"), self.tr("Please provide shot No.        "))
-	
-	##########################################
-	'''
-	def moveSelectedActorInScene(self):
-		# print("clicked!")
-		all_actors = wf.getAllActors(True, None, None, None)
-		self.selectedActor = all_actors[0]
-		self.isMove = not self.isMove
-	
-	def rotateSelectedActorInScene(self):
-		# print("clicked!")
-		all_actors = wf.getAllActors(True, None, None, None)
-		self.selectedActor = all_actors[0]
-		self.isRotate = not self.isRotate
+                            "Warning"), self.tr("Please provide valid shot No.        "))
 
 
-	def myTick(self, delta_seconds):
-		self.time_while_this_window_is_open += delta_seconds
-		# self.widget.lbl_Seconds.setText("%.1f Seconds" % self.time_while_this_window_is_open)
+	def loadLevel(self):
+		loadPath = unreal.Paths.convert_relative_path_to_full(
+			unreal.Paths.project_content_dir())
+		pathToLevel = QtGui.QFileDialog.getOpenFileName(self, "Load Level",
+                                                loadPath,
+                                                 "Unreal Level (*.umap)")  # return (fileNames, selectedFilter)
+		if '.umap' in pathToLevel[0]:
+			level = (pathToLevel[0].split('Content/')[1]).split('.umap')[0]
+			self.widget.lineEdit_Level.setText(level)
+			self.level = '/Game/' + level
+			print self.level
+		else:
+			QtGui.QMessageBox.warning(self, self.tr(
+							"Warning"), self.tr("Please pick valid level.        "))
+
+	def loadSeq(self):
+		loadPath = unreal.Paths.convert_relative_path_to_full(
+			unreal.Paths.project_content_dir())
+		pathToSeq = QtGui.QFileDialog.getOpenFileName(self, "Load Sequencer",
+                                                  loadPath,
+                                                  "Unreal Asset (*.uasset)")  # return (fileNames, selectedFilter)
 		
-		if self.selectedActor:
-			speed = 300.0 * delta_seconds
+		if '.uasset' in pathToSeq[0]:
+			seq = (pathToSeq[0].split('Content/')[1]).split('.uasset')[0]
+			# validation
+			seqTemp = '/Game/' + seq
+			if unreal.EditorAssetLibrary.find_asset_data(seqTemp).asset_class == 'LevelSequence':
+				self.seq = seqTemp
+				self.widget.lineEdit_Seq.setText(seq)
+				print self.seq
+			else:
+				QtGui.QMessageBox.warning(self, self.tr(
+                                    "Warning"), self.tr("Please pick valid sequence asset.        "))
+		else:
+			QtGui.QMessageBox.warning(self, self.tr(
+                            "Warning"), self.tr("Please pick valid sequence asset.        "))
 
-			if self.isMove:
-				actor_location = self.selectedActor.get_actor_location()
-				self.selectedActor.add_actor_world_offset(unreal.Vector(0.0, 0.0, unreal.MathLibrary.sin(speed)), False, False)
-				if self.actor_is_going_up:
-					if actor_location.z > 500.0:
-						self.actor_is_going_up = False
-				else:
-					speed = -speed
-					if actor_location.z < 0.0:
-						self.actor_is_going_up = True
-				self.selectedActor.add_actor_world_offset(unreal.Vector(0.0, 0.0, speed), False, False)
+	def batchRender(self):
+		if re.match('^[0-9]{4}$', self.widget.lineEdit_RenderShotNo.text()):
+			if self.level and self.seq:
+				ret = self.getShotFolderName(
+					self.widget.horizontalLayout_RenderShotTag, 
+					self.widget.lineEdit_RenderShotNo)
+				shotTag = ret[0]
+				shotNo = ret[1]
+				level = self.level 	# self.widget.lineEdit_Level.text()
+				seq = self.seq 		# self.widget.lineEdit_Seq.text()
+				resolution_id = self.widget.comboBox_Res.currentIndex()
+				render_pass_id = self.widget.comboBox_RenderPass.currentIndex()
+				cmd = br.makeCommand(shotTag, shotNo, level, seq, resolution_id, render_pass_id)
+				br.batchRender(cmd)
+			else:
+				QtGui.QMessageBox.warning(self, self.tr(
+                                    "Warning"), self.tr("Please load level and sequencer.        "))
+		else:
+			QtGui.QMessageBox.warning(self, self.tr(
+                            "Warning"), self.tr("Please provide valid shot number.        "))
 
-			if self.isRotate:
-				self.selectedActor.add_actor_world_rotation(unreal.Rotator(0.0, 0.0, speed), False, False)
-	'''
+
+
+	def getShotFolderName(self, tagGroup, no):
+		shotTags = (tagGroup.itemAt(i) for i in range(tagGroup.count()))
+		shotTag = [i.widget().text() for i in shotTags if i.widget().isChecked()][0]
+		shotNo = no.text()
+		return (shotTag, shotNo)
+
+
+	##########################################
+
+
+
+
+	
 
 

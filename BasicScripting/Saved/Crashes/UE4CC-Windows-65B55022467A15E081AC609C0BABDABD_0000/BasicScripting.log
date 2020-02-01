@@ -1,0 +1,771 @@
+﻿Log file open, 11/25/19 14:10:18
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: BasicScripting
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.550672
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin BlankPlugin
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin PythonScriptPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin SequencerScripting
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin UnrealPythonLibraryPlugin
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz, GPU: NVIDIA GeForce RTX 2080
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.11.25-22.10.19:405][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.11.25-22.10.19:405][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.11.25-22.10.19:405][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Engine.ini]
+[2019.11.25-22.10.19:405][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.11.25-22.10.19:405][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.11.25-22.10.19:405][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Engine.ini]
+[2019.11.25-22.10.19:405][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Engine.ini]
+[2019.11.25-22.10.19:405][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.11.25-22.10.19:405][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.11.25-22.10.19:405][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.11.25-22.10.19:405][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.11.25-22.10.19:405][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.11.25-22.10.19:405][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.11.25-22.10.19:405][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.11.25-22.10.19:405][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.11.25-22.10.19:405][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.11.25-22.10.19:405][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.11.25-22.10.19:405][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.11.25-22.10.19:405][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.11.25-22.10.19:405][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.11.25-22.10.19:405][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Engine.ini]
+[2019.11.25-22.10.19:405][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.11.25-22.10.19:405][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.11.25-22.10.19:405][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.11.25-22.10.19:405][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.11.25-22.10.19:405][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.11.25-22.10.19:405][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.11.25-22.10.19:405][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.11.25-22.10.19:405][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.11.25-22.10.19:405][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.11.25-22.10.19:405][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.11.25-22.10.19:405][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.11.25-22.10.19:405][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.11.25-22.10.19:406][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.11.25-22.10.19:406][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Engine.ini]
+[2019.11.25-22.10.19:406][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Engine.ini]
+[2019.11.25-22.10.19:410][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Scalability.ini]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Scalability.ini]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Scalability.ini]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Scalability.ini]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.25-22.10.19:410][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.25-22.10.19:411][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.25-22.10.19:411][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.25-22.10.19:411][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.25-22.10.19:411][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.25-22.10.19:411][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.25-22.10.19:411][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.25-22.10.19:411][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.25-22.10.19:411][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.25-22.10.19:411][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Scalability.ini]
+[2019.11.25-22.10.19:411][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.25-22.10.19:411][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.25-22.10.19:411][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.25-22.10.19:411][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.25-22.10.19:411][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.25-22.10.19:411][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.25-22.10.19:411][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.25-22.10.19:411][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.25-22.10.19:411][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Scalability.ini]
+[2019.11.25-22.10.19:411][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.25-22.10.19:411][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.25-22.10.19:411][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.25-22.10.19:411][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.25-22.10.19:411][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.25-22.10.19:411][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.25-22.10.19:411][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.25-22.10.19:411][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.25-22.10.19:411][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.25-22.10.19:411][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.25-22.10.19:411][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.25-22.10.19:411][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.25-22.10.19:411][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.25-22.10.19:411][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Scalability.ini]
+[2019.11.25-22.10.19:411][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.25-22.10.19:411][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.25-22.10.19:411][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.25-22.10.19:411][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.25-22.10.19:423][  0]LogHAL: Display: Platform has ~ 64 GB [68634533888 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.25-22.10.19:423][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.11.25-22.10.19:423][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.25-22.10.19:423][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Scalability.ini]
+[2019.11.25-22.10.19:423][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.25-22.10.19:423][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.25-22.10.19:423][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Scalability.ini]
+[2019.11.25-22.10.19:423][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.25-22.10.19:423][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Scalability.ini]
+[2019.11.25-22.10.19:423][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.25-22.10.19:423][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.25-22.10.19:423][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.25-22.10.19:423][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.25-22.10.19:423][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.25-22.10.19:423][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.25-22.10.19:423][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.25-22.10.19:423][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.25-22.10.19:423][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.25-22.10.19:423][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.25-22.10.19:423][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.25-22.10.19:423][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.25-22.10.19:423][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.25-22.10.19:423][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.25-22.10.19:423][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.25-22.10.19:423][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.25-22.10.19:423][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.25-22.10.19:423][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.25-22.10.19:423][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Scalability.ini]
+[2019.11.25-22.10.19:423][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.25-22.10.19:423][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.25-22.10.19:423][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.25-22.10.19:423][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.25-22.10.19:423][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.25-22.10.19:423][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.25-22.10.19:423][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.25-22.10.19:423][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.25-22.10.19:423][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.25-22.10.19:423][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.25-22.10.19:423][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.25-22.10.19:423][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Scalability.ini]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Scalability.ini]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Scalability.ini]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.25-22.10.19:424][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.11.25-22.10.19:427][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.11.25-22.10.19:427][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.11.25-22.10.19:427][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Git/UEGym/BasicScripting/Saved/Config/Windows/Engine.ini]
+[2019.11.25-22.10.19:427][  0]LogInit: Computer: VICTOR
+[2019.11.25-22.10.19:427][  0]LogInit: User: victorl
+[2019.11.25-22.10.19:427][  0]LogInit: CPU Page size=4096, Cores=8
+[2019.11.25-22.10.19:427][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.11.25-22.10.19:427][  0]LogMemory: Memory total: Physical=63.9GB (64GB approx)
+[2019.11.25-22.10.19:427][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.25-22.10.19:427][  0]LogMemory: Process Physical Memory: 98.87 MB used, 98.87 MB peak
+[2019.11.25-22.10.19:427][  0]LogMemory: Process Virtual Memory: 90.64 MB used, 90.64 MB peak
+[2019.11.25-22.10.19:427][  0]LogMemory: Physical Memory: 10641.29 MB used,  54813.70 MB free, 65454.99 MB total
+[2019.11.25-22.10.19:427][  0]LogMemory: Virtual Memory: 4677.17 MB used,  134213048.00 MB free, 134217728.00 MB total
+[2019.11.25-22.10.19:522][  0]LogInit: Using OS detected language (en-US).
+[2019.11.25-22.10.19:522][  0]LogInit: Using OS detected locale (en-CA).
+[2019.11.25-22.10.19:523][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.11.25-22.10.19:663][  0]LogInit: Setting process to per monitor DPI aware
+[2019.11.25-22.10.19:721][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.25-22.10.19:721][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.25-22.10.20:963][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.25-22.10.20:963][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.25-22.10.21:024][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080' (Feature Level 11_0)
+[2019.11.25-22.10.21:024][  0]LogD3D11RHI:       8010/0/32727 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.11.25-22.10.21:026][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.25-22.10.21:026][  0]LogD3D11RHI:       0/0/32727 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.25-22.10.21:026][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.25-22.10.21:032][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.25-22.10.21:032][  0]LogD3D11RHI:     GPU DeviceId: 0x1e82 (for the marketing name, search the web for "GPU Device Id")
+[2019.11.25-22.10.21:032][  0]LogWindows: EnumDisplayDevices:
+[2019.11.25-22.10.21:032][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080' (P:1 D:1)
+[2019.11.25-22.10.21:032][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080' (P:0 D:1)
+[2019.11.25-22.10.21:033][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2019.11.25-22.10.21:033][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2019.11.25-22.10.21:033][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.11.25-22.10.21:033][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080
+[2019.11.25-22.10.21:033][  0]LogD3D11RHI:   Driver Version: 441.20 (internal:26.21.14.4120, unified:441.20)
+[2019.11.25-22.10.21:033][  0]LogD3D11RHI:      Driver Date: 11-6-2019
+[2019.11.25-22.10.21:033][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
+[2019.11.25-22.10.21:077][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.25-22.10.21:092][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.25-22.10.21:092][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.25-22.10.21:092][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.25-22.10.21:099][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.11.25-22.10.21:446][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.11.25-22.10.21:463][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.11.25-22.10.21:480][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.11.25-22.10.21:497][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.11.25-22.10.21:516][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.11.25-22.10.21:533][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.11.25-22.10.21:550][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.11.25-22.10.21:568][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.11.25-22.10.21:581][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.11.25-22.10.21:650][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.11.25-22.10.21:650][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.11.25-22.10.21:650][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.11.25-22.10.21:650][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.11.25-22.10.21:650][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.11.25-22.10.21:650][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.11.25-22.10.21:650][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.11.25-22.10.21:650][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.11.25-22.10.21:650][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.11.25-22.10.21:650][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.11.25-22.10.21:650][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.11.25-22.10.21:650][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.11.25-22.10.21:650][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.11.25-22.10.21:650][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.11.25-22.10.21:650][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.11.25-22.10.21:650][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.11.25-22.10.21:650][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.11.25-22.10.21:650][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.11.25-22.10.21:659][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.11.25-22.10.21:727][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.11.25-22.10.21:727][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.11.25-22.10.21:751][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.11.25-22.10.21:751][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.11.25-22.10.21:768][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.11.25-22.10.21:785][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.11.25-22.10.21:802][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.11.25-22.10.21:825][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.11.25-22.10.21:866][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.11.25-22.10.21:866][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.11.25-22.10.21:866][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.25-22.10.21:905][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.11.25-22.10.22:075][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (../../../../../../Git/UEGym/BasicScripting/Intermediate/Shaders/WorkingDirectory/21984/).
+[2019.11.25-22.10.22:075][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/victor.l/AppData/Local/Temp/UnrealShaderWorkingDir/676AF7C94B4780911D91E49BC29223B1/'.
+[2019.11.25-22.10.22:076][  0]LogXGEController: Cleaning working directory: C:/Users/victor.l/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.11.25-22.10.22:076][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.25-22.10.22:076][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.25-22.10.22:076][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.25-22.10.23:361][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.25-22.10.23:400][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/victor.l/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.25-22.10.23:400][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/victor.l/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.11.25-22.10.23:400][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Git/UEGym/BasicScripting/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.25-22.10.23:400][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.25-22.10.23:400][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Git/UEGym/BasicScripting/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.25-22.10.23:400][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.25-22.10.23:413][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.25-22.10.23:413][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.25-22.10.23:413][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.11.25-22.10.23:424][  0]LogDerivedDataCache: Using Local data cache path C:/Users/victor.l/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.25-22.10.23:424][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.25-22.10.23:424][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.25-22.10.23:440][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.25-22.10.23:440][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.25-22.10.23:450][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.25-22.10.23:608][  0]LogAssetRegistry: FAssetRegistry took 0.0293 seconds to start up
+[2019.11.25-22.10.23:834][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.25-22.10.24:064][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.25-22.10.24:064][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.11.25-22.10.24:064][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.25-22.10.24:064][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.11.25-22.10.24:064][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.11.25-22.10.24:083][  0]LogNetVersion: BasicScripting 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 2027260730)
+[2019.11.25-22.10.24:632][  0]LogPackageLocalizationCache: Processed 13 localized package path(s) for 1 prioritized culture(s) in 0.024216 seconds
+[2019.11.25-22.10.24:636][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.11.25-22.10.24:636][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.11.25-22.10.24:636][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.25-22.10.27:128][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.25-22.10.27:149][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.25-22.10.27:400][  0]SourceControl: Source control is disabled
+[2019.11.25-22.10.27:400][  0]SourceControl: Source control is disabled
+[2019.11.25-22.10.27:410][  0]SourceControl: Source control is disabled
+[2019.11.25-22.10.27:419][  0]SourceControl: Source control is disabled
+[2019.11.25-22.10.27:835][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.25-22.10.28:027][  0]LogOcInput: OculusInput pre-init called
+[2019.11.25-22.10.28:589][  0]LogEngine: Initializing Engine...
+[2019.11.25-22.10.28:590][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.25-22.10.28:590][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.11.25-22.10.28:835][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.25-22.10.28:851][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.25-22.10.28:866][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.25-22.10.28:879][  0]LogInit: FAudioDevice initialized.
+[2019.11.25-22.10.28:879][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.25-22.10.28:916][  0]LogDerivedDataCache: Saved boot cache 0.04s 71MB C:/Users/victor.l/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.25-22.10.28:923][  0]LogInit: Texture streaming: Enabled
+[2019.11.25-22.10.28:964][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.25-22.10.28:994][  0]LogInit: Transaction tracking system initialized
+[2019.11.25-22.10.29:047][  0]BlueprintLog: New page: Editor Load
+[2019.11.25-22.10.29:273][  0]LocalizationService: Localization service is disabled
+[2019.11.25-22.10.29:744][  0]LogFileCache: Scanning file cache for directory 'D:/Git/UEGym/BasicScripting/Content/' took 0.01s
+[2019.11.25-22.10.29:744][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.25-22.10.29:744][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.25-22.10.30:214][  0]SourceControl: Source control is disabled
+[2019.11.25-22.10.30:214][  0]Cmd: MAP LOAD FILE="../../../../../../Git/UEGym/BasicScripting/Content/L_Test1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.25-22.10.30:217][  0]LightingResults: New page: Lighting Build
+[2019.11.25-22.10.30:219][  0]MapCheck: New page: Map Check
+[2019.11.25-22.10.30:219][  0]LightingResults: New page: Lighting Build
+[2019.11.25-22.10.30:246][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2019.11.25-22.10.30:358][  0]LogAIModule: Creating AISystem for world L_Test1
+[2019.11.25-22.10.30:364][  0]LogPython: Error: Traceback (most recent call last):
+[2019.11.25-22.10.30:364][  0]LogPython: Error:   File "<string>", line 1, in <module>
+[2019.11.25-22.10.30:364][  0]LogPython: Error: ImportError: No module named QtFunctions
+[2019.11.25-22.10.30:364][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/SUB_Light) is flushing async loading
+[2019.11.25-22.10.30:364][  0]LogStreaming: Display: Flushing async loaders.
+[2019.11.25-22.10.30:370][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.25-22.10.30:397][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2019.11.25-22.10.30:397][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.25-22.10.30:397][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.1ms to complete.
+[2019.11.25-22.10.30:397][  0]LogFileHelpers: Loading map 'L_Test1' took 0.183
+[2019.11.25-22.10.30:493][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.25-22.10.30:498][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.25-22.10.30:503][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.25-22.10.30:508][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.25-22.10.30:522][  0]LogCollectionManager: Loaded 0 collections in 0.000603 seconds
+[2019.11.25-22.10.30:536][  0]LogFileCache: Scanning file cache for directory 'D:/Git/UEGym/BasicScripting/Saved/Collections/' took 0.01s
+[2019.11.25-22.10.30:536][  0]LogFileCache: Scanning file cache for directory 'D:/Git/UEGym/BasicScripting/Content/Developers/victorl/Collections/' took 0.00s
+[2019.11.25-22.10.30:536][  0]LogFileCache: Scanning file cache for directory 'D:/Git/UEGym/BasicScripting/Content/Collections/' took 0.00s
+[2019.11.25-22.10.30:536][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.11.25-22.10.30:542][  0]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 2775 classes and 676 folders.
+[2019.11.25-22.10.30:547][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.25-22.10.30:551][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.25-22.10.30:555][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.25-22.10.30:564][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.25-22.10.30:567][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.25-22.10.30:570][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.25-22.10.30:573][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.25-22.10.30:576][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.25-22.10.30:577][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.25-22.10.30:581][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.25-22.10.30:585][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.25-22.10.30:587][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.25-22.10.30:589][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.25-22.10.30:592][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.25-22.10.30:595][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.25-22.10.30:598][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.25-22.10.30:600][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.25-22.10.30:619][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.25-22.10.30:622][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.25-22.10.30:625][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.25-22.10.30:628][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.25-22.10.30:631][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.25-22.10.30:633][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.25-22.10.30:636][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.25-22.10.30:639][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.25-22.10.30:642][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.25-22.10.30:645][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.25-22.10.30:712][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.25-22.10.30:726][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.11.25-22.10.30:786][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0002 seconds. Added 2 classes and 3 folders.
+[2019.11.25-22.10.30:835][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.25-22.10.30:835][  0]LogLoad: (Engine Initialization) Total time: 14.16 seconds
+[2019.11.25-22.10.30:835][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.25-22.10.30:887][  0]LogAssetRegistry: Asset discovery search completed in 7.3016 seconds
+[2019.11.25-22.10.30:889][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.11.25-22.10.30:889][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
+[2019.11.25-22.10.30:909][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.25-22.10.30:936][  0]LogSlate: Took 0.003193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.25-22.10.30:941][  0]LogSlate: Took 0.002789 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.25-22.10.30:945][  0]LogSlate: Took 0.002997 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.25-22.10.31:021][  1]LogRenderer: Reallocating scene render targets to support 316x540 Format 10 NumSamples 1 (Frame:1).
+[2019.11.25-22.10.31:025][  1]LogPython: Warning: hello unreal!
+[2019.11.25-22.10.32:865][  7]LogPython: Display: Generating Python API stub file...
+[2019.11.25-22.10.32:925][  7]LogPython: Display:   ...generating Python API: glue code
+[2019.11.25-22.10.33:072][  7]LogPython: Display:   ...generating Python API: additional code
+[2019.11.25-22.10.33:183][  7]LogPython: Display:   ...generated: D:/Git/UEGym/BasicScripting/Intermediate/PythonStub/unreal.py
+[2019.11.25-22.10.33:759][  9]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.25-22.10.33:913][ 12]LogRenderer: Reallocating scene render targets to support 652x556 Format 10 NumSamples 1 (Frame:3).
+[2019.11.25-22.10.36:038][246]LogEditorViewport: Clicking on Actor (LMB): BP_ExecutePython_C (Python)
+[2019.11.25-22.10.37:311][369]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.25-22.17.31:165][588]LogSlate: Took 0.010841 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.25-22.17.31:173][588]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_ExecutePython.BP_ExecutePython
+[2019.11.25-22.17.31:783][588]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 121 classes and 0 folders.
+[2019.11.25-22.17.32:851][588]LogSlate: Took 0.020807 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.11.25-22.17.32:990][589]LogSlate: Took 0.004013 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.25-22.17.33:027][590]LogPython: Display: Generating Python API stub file...
+[2019.11.25-22.17.33:095][590]LogPython: Display:   ...generating Python API: glue code
+[2019.11.25-22.17.33:242][590]LogPython: Display:   ...generating Python API: additional code
+[2019.11.25-22.17.33:280][590]LogPython: Display:   ...generated: D:/Git/UEGym/BasicScripting/Intermediate/PythonStub/unreal.py
+[2019.11.25-22.17.52:861][911]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ExecutePython" FILE="../../../../../../Git/UEGym/BasicScripting/Content/BP_ExecutePython.uasset" SILENT=true
+[2019.11.25-22.17.53:042][911]LogSavePackage: Moving '../../../../../../Git/UEGym/BasicScripting/Saved/BP_ExecutePythonD3E7303B4477DB38FA8D079F75DBF929.tmp' to '../../../../../../Git/UEGym/BasicScripting/Content/BP_ExecutePython.uasset'
+[2019.11.25-22.18.04:524][276]LogSlate: Took 0.023628 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.11.25-22.18.20:111][386]BlueprintLog: New page: Compile BP_ExecutePython
+[2019.11.25-22.18.20:348][386]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2019.11.25-22.20.31:528][926]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2019.11.25-22.20.31:529][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L_Test1" FILE="../../../../../../Git/UEGym/BasicScripting/Saved/Autosaves/Game/L_Test1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.11.25-22.20.31:651][926]LogSavePackage: Moving '../../../../../../Git/UEGym/BasicScripting/Saved/L_Test1_Auto1D92A9BC04AAB52342C054BA6C2C27C8E.tmp' to '../../../../../../Git/UEGym/BasicScripting/Saved/Autosaves/Game/L_Test1_Auto1.umap'
+[2019.11.25-22.20.31:655][926]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/L_Test1' took 0.153
+[2019.11.25-22.20.31:655][926]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.153
+[2019.11.25-22.20.31:656][926]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_ExecutePython] ([1] browsable assets)...
+[2019.11.25-22.20.31:656][926]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_ExecutePython]
+[2019.11.25-22.20.31:656][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ExecutePython" FILE="../../../../../../Git/UEGym/BasicScripting/Saved/Autosaves/Game/BP_ExecutePython_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.11.25-22.20.31:669][926]LogSavePackage: Moving '../../../../../../Git/UEGym/BasicScripting/Saved/BP_ExecutePython_Auto12007CF1F4F7475A713C178A3A42429FF.tmp' to '../../../../../../Git/UEGym/BasicScripting/Saved/Autosaves/Game/BP_ExecutePython_Auto1.uasset'
+[2019.11.25-22.20.31:669][926]LogFileHelpers: Auto-saving content packages took 0.013
+[2019.11.25-22.56.36:873][ 56]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2019.11.25-22.56.37:183][ 67]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.25-22.56.37:207][ 67]LogSlate: Took 0.023425 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.11.25-22.56.45:068][876]LogPython: import p4
+[2019.11.25-22.56.45:069][876]LogPython: Error: Traceback (most recent call last):
+[2019.11.25-22.56.45:069][876]LogPython: Error:   File "<string>", line 1, in <module>
+[2019.11.25-22.56.45:069][876]LogPython: Error: ImportError: No module named p4
+[2019.11.25-22.56.56:218][776]LogPython: import P4
+[2019.11.25-22.56.56:219][776]LogPython: Error: Traceback (most recent call last):
+[2019.11.25-22.56.56:219][776]LogPython: Error:   File "<string>", line 1, in <module>
+[2019.11.25-22.56.56:219][776]LogPython: Error: ImportError: No module named P4
+[2019.11.25-22.58.27:011][618]LogWindows: LaunchURL http://epicgames.com
+[2019.11.25-23.00.36:577][132]LogSlate: Window 'Plugins' being destroyed
+[2019.11.25-23.00.36:580][132]LogSlate: Window 'Plugins' being destroyed
+[2019.11.25-23.00.36:580][132]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2019.11.25-23.00.36:581][132]LogDirectoryWatcher: A directory notification for '../../../../../../Git/UEGym/BasicScripting/Plugins/' was aborted.
+[2019.11.25-23.16.05:041][107]LogEditorViewport: Clicking on Actor (LMB): BP_ExecutePython_C (Python)
+[2019.11.25-23.16.06:300][256]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.25-23.16.29:075][875]LogPython: Created new folder structure: 
+../../../../../../Git/UEGym/BasicScripting/Content/_shot/BT/BT_0000
+[2019.11.25-23.16.29:075][875]LogPython: 
+
+[2019.11.25-23.16.35:737][668]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2019.11.25-23.16.35:738][668]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L_Test1" FILE="../../../../../../Git/UEGym/BasicScripting/Saved/Autosaves/Game/L_Test1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.11.25-23.16.35:844][668]LogSavePackage: Moving '../../../../../../Git/UEGym/BasicScripting/Saved/L_Test1_Auto23019F5D44D2C7A73BAA887906965C0EE.tmp' to '../../../../../../Git/UEGym/BasicScripting/Saved/Autosaves/Game/L_Test1_Auto2.umap'
+[2019.11.25-23.16.35:848][668]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/L_Test1' took 0.141
+[2019.11.25-23.16.35:848][668]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.141
+[2019.11.25-23.17.12:771][578]BlueprintLog: New page: Compile BP_ExecutePython
+[2019.11.25-23.17.12:886][578]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2019.11.25-23.19.47:620][318]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2019.11.25-23.19.47:630][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L_Test1" FILE="../../../../../../Git/UEGym/BasicScripting/Content/L_Test1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.25-23.19.47:657][318]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2019.11.25-23.19.47:757][318]LogSavePackage: Moving '../../../../../../Git/UEGym/BasicScripting/Saved/L_Test13F1C0EA54A8F46C5D30D2980DFC11CF1.tmp' to '../../../../../../Git/UEGym/BasicScripting/Content/L_Test1.umap'
+[2019.11.25-23.19.47:779][318]LogFileHelpers: Saving map 'L_Test1' took 0.150
+[2019.11.25-23.19.47:780][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ExecutePython" FILE="../../../../../../Git/UEGym/BasicScripting/Content/BP_ExecutePython.uasset" SILENT=true
+[2019.11.25-23.19.47:798][318]LogSavePackage: Moving '../../../../../../Git/UEGym/BasicScripting/Saved/BP_ExecutePythonD97EA95944F6CFA8792AD0BCB4FDA8BB.tmp' to '../../../../../../Git/UEGym/BasicScripting/Content/BP_ExecutePython.uasset'
+[2019.11.25-23.19.56:517][351]BlueprintLog: New page: Compile BP_ExecutePython
+[2019.11.25-23.19.56:630][351]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2019.11.25-23.19.57:159][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ExecutePython" FILE="../../../../../../Git/UEGym/BasicScripting/Content/BP_ExecutePython.uasset" SILENT=true
+[2019.11.25-23.19.57:171][411]LogSavePackage: Moving '../../../../../../Git/UEGym/BasicScripting/Saved/BP_ExecutePythonBA41C44A4F0F54D13B69CEA0F1D3981B.tmp' to '../../../../../../Git/UEGym/BasicScripting/Content/BP_ExecutePython.uasset'
+[2019.11.25-23.20.59:901][911]BlueprintLog: New page: Compile BP_ExecutePython
+[2019.11.25-23.21.00:019][911]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2019.11.25-23.21.17:750][ 31]BlueprintLog: New page: Compile BP_ExecutePython
+[2019.11.25-23.21.17:864][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2019.11.25-23.21.18:346][ 87]BlueprintLog: New page: Compile BP_ExecutePython
+[2019.11.25-23.21.18:459][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2019.11.25-23.21.22:517][571]BlueprintLog: New page: Compile BP_ExecutePython
+[2019.11.25-23.21.22:628][571]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2019.11.25-23.21.23:055][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ExecutePython" FILE="../../../../../../Git/UEGym/BasicScripting/Content/BP_ExecutePython.uasset" SILENT=true
+[2019.11.25-23.21.23:069][619]LogSavePackage: Moving '../../../../../../Git/UEGym/BasicScripting/Saved/BP_ExecutePython6AF0646749AF6A15108987AC2CFF3D5E.tmp' to '../../../../../../Git/UEGym/BasicScripting/Content/BP_ExecutePython.uasset'
+[2019.11.25-23.23.07:105][171]LogPython: import unreal as ue
+[2019.11.25-23.23.41:815][ 61]LogPython: ue.paths.engine_content_dir
+[2019.11.25-23.23.41:815][ 61]LogPython: Error: Traceback (most recent call last):
+[2019.11.25-23.23.41:815][ 61]LogPython: Error:   File "<string>", line 1, in <module>
+[2019.11.25-23.23.41:815][ 61]LogPython: Error: AttributeError: 'module' object has no attribute 'paths'
+[2019.11.25-23.23.48:492][861]LogPython: ue.path.engine_content_dir()
+[2019.11.25-23.23.48:493][861]LogPython: Error: Traceback (most recent call last):
+[2019.11.25-23.23.48:493][861]LogPython: Error:   File "<string>", line 1, in <module>
+[2019.11.25-23.23.48:493][861]LogPython: Error: AttributeError: 'module' object has no attribute 'path'
+[2019.11.25-23.24.04:146][739]LogPython: ue.Paths.engine_content_dir()
+[2019.11.25-23.24.16:908][269]LogPython: print ue.Paths.engine_content_dir()
+[2019.11.25-23.24.16:908][269]LogPython: ../../../Engine/Content/
+[2019.11.25-23.24.16:908][269]LogPython: 
+
+[2019.11.25-23.24.45:741][939]LogPython: print ue.Paths.engine_dir()
+[2019.11.25-23.24.45:741][939]LogPython: ../../../Engine/
+[2019.11.25-23.24.45:741][939]LogPython: 
+
+[2019.11.25-23.25.16:282][ 32]LogPython: print ue.Paths.engine_user_dir()
+[2019.11.25-23.25.16:282][ 32]LogPython: C:/Users/victor.l/AppData/Local/UnrealEngine/4.22/
+[2019.11.25-23.25.16:283][ 32]LogPython: 
+
+[2019.11.25-23.26.09:176][295]LogPython: print ue.Paths.get_project_file_path() 
+[2019.11.25-23.26.09:176][295]LogPython: ../../../../../../Git/UEGym/BasicScripting/BasicScripting.uproject
+[2019.11.25-23.26.09:176][295]LogPython: 
+
+[2019.11.25-23.27.23:618][754]LogPython: print ue.Paths.get_relative_path_to_root() 
+[2019.11.25-23.27.23:618][754]LogPython: ../../../
+[2019.11.25-23.27.23:618][754]LogPython: 
+
+[2019.11.25-23.27.53:441][938]LogPython: print ue.Paths.launch_dir() 
+[2019.11.25-23.27.53:441][938]LogPython: D:\Program Files\Epic Games\Launcher\Engine\Binaries\Win64/
+[2019.11.25-23.27.53:441][938]LogPython: 
+
+[2019.11.25-23.28.50:612][964]LogPython: print ue.Paths.project_content_dir() 
+[2019.11.25-23.28.50:612][964]LogPython: ../../../../../../Git/UEGym/BasicScripting/Content/
+[2019.11.25-23.28.50:612][964]LogPython: 
+
+[2019.11.25-23.29.25:868][737]LogPython: print ue.Paths.project_dir()
+[2019.11.25-23.29.25:869][737]LogPython: ../../../../../../Git/UEGym/BasicScripting/
+[2019.11.25-23.29.25:869][737]LogPython: 
+
+[2019.11.25-23.29.51:527][810]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2019.11.25-23.29.51:538][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L_Test1" FILE="../../../../../../Git/UEGym/BasicScripting/Saved/Autosaves/Game/L_Test1_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.11.25-23.29.51:646][810]LogSavePackage: Moving '../../../../../../Git/UEGym/BasicScripting/Saved/L_Test1_Auto382CF198047A82967BC902D8D5B64B2B7.tmp' to '../../../../../../Git/UEGym/BasicScripting/Saved/Autosaves/Game/L_Test1_Auto3.umap'
+[2019.11.25-23.29.51:648][810]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/L_Test1' took 0.148
+[2019.11.25-23.29.51:648][810]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.148
+[2019.11.25-23.41.55:833][283]LogPython: f= open('test2.txt', 'w+')  
+[2019.11.25-23.42.02:199][  0]LogSlate: Took 0.000116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.25-23.42.03:961][207]LogSlate: Window 'Content Browser' being destroyed
+[2019.11.25-23.42.03:965][207]LogSlate: Window 'Content Browser' being destroyed
+[2019.11.25-23.48.08:001][ 38]LogPython: de lf
+[2019.11.25-23.48.08:001][ 38]LogPython: Error: SyntaxError: invalid syntax (<string>, line 1)
+[2019.11.25-23.48.11:165][417]LogPython: del f
+[2019.11.25-23.48.18:730][ 45]LogPython: f
+[2019.11.25-23.48.18:730][ 45]LogPython: Error: Traceback (most recent call last):
+[2019.11.25-23.48.18:730][ 45]LogPython: Error:   File "<string>", line 1, in <module>
+[2019.11.25-23.48.18:730][ 45]LogPython: Error: NameError: name 'f' is not defined
+[2019.11.25-23.49.57:189][925]LogPython: print ue.Paths.project_config_dir()
+[2019.11.25-23.49.57:190][925]LogPython: ../../../../../../Git/UEGym/BasicScripting/Config/
+[2019.11.25-23.49.57:190][925]LogPython: 
+
+[2019.11.25-23.50.39:842][674]LogBlueprint: Warning: [Compiler ] Pasted node  CustomEvent   conflicted with  IGG - Open Tool UI  and was replaced as a Custom Event!
+[2019.11.25-23.50.54:047][369]BlueprintLog: New page: Compile BP_ExecutePython
+[2019.11.25-23.50.54:162][369]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2019.11.25-23.51.17:431][150]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2019.11.25-23.51.17:442][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L_Test1" FILE="../../../../../../Git/UEGym/BasicScripting/Content/L_Test1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.25-23.51.17:471][150]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2019.11.25-23.51.17:577][150]LogSavePackage: Moving '../../../../../../Git/UEGym/BasicScripting/Saved/L_Test1E99BF6A94C5EB4E61D8E8A99D953AACD.tmp' to '../../../../../../Git/UEGym/BasicScripting/Content/L_Test1.umap'
+[2019.11.25-23.51.17:600][150]LogFileHelpers: Saving map 'L_Test1' took 0.158
+[2019.11.25-23.51.17:602][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ExecutePython" FILE="../../../../../../Git/UEGym/BasicScripting/Content/BP_ExecutePython.uasset" SILENT=true
+[2019.11.25-23.51.17:617][150]LogSavePackage: Moving '../../../../../../Git/UEGym/BasicScripting/Saved/BP_ExecutePythonF451FDED4DDD10F9DBE29F874B8ADD39.tmp' to '../../../../../../Git/UEGym/BasicScripting/Content/BP_ExecutePython.uasset'
+[2019.11.25-23.51.19:965][428]BlueprintLog: New page: Compile BP_ExecutePython
+[2019.11.25-23.51.20:077][428]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2019.11.25-23.53.17:194][756]BlueprintLog: New page: Compile BP_ExecutePython
+[2019.11.25-23.53.17:312][756]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2019.11.25-23.53.24:561][622]BlueprintLog: New page: Compile BP_ExecutePython
+[2019.11.25-23.53.24:673][622]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2019.11.25-23.53.25:409][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ExecutePython" FILE="../../../../../../Git/UEGym/BasicScripting/Content/BP_ExecutePython.uasset" SILENT=true
+[2019.11.25-23.53.25:423][707]LogSavePackage: Moving '../../../../../../Git/UEGym/BasicScripting/Saved/BP_ExecutePython9CB58CCA4DB61B70EE40D5A2E6ADF533.tmp' to '../../../../../../Git/UEGym/BasicScripting/Content/BP_ExecutePython.uasset'
+[2019.11.25-23.54.21:547][297]LogPython: del bat
+[2019.11.25-23.57.14:219][821]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ExecutePython" FILE="../../../../../../Git/UEGym/BasicScripting/Content/BP_ExecutePython.uasset" SILENT=true
+[2019.11.25-23.57.14:245][821]LogSavePackage: Moving '../../../../../../Git/UEGym/BasicScripting/Saved/BP_ExecutePythonA262BDC74DCA6F647152C3B24E2C9334.tmp' to '../../../../../../Git/UEGym/BasicScripting/Content/BP_ExecutePython.uasset'
+[2019.11.25-23.57.15:357][952]BlueprintLog: New page: Compile BP_ExecutePython
+[2019.11.25-23.57.15:473][952]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2019.11.25-23.57.26:176][233]LogPython: bat
+[2019.11.25-23.57.38:849][753]LogPython: help bat
+[2019.11.25-23.57.38:849][753]LogPython: Error: SyntaxError: invalid syntax (<string>, line 1)
+[2019.11.25-23.57.45:588][561]LogPython: print bat
+[2019.11.25-23.57.45:588][561]LogPython: <open file '../../../../../../Git/UEGym/BasicScripting/Config/batch-render-temp.bat', mode 'w+' at 0x00000264B574BDB0>
+[2019.11.25-23.57.45:588][561]LogPython: 
+
+[2019.11.25-23.59.47:858][104]LogPython: unreal.Paths.launch_dir()  + 'UE4Editor.exe'
+[2019.11.25-23.59.53:723][807]LogPython: print unreal.Paths.launch_dir()  + 'UE4Editor.exe'
+[2019.11.25-23.59.53:723][807]LogPython: D:\Program Files\Epic Games\Launcher\Engine\Binaries\Win64/UE4Editor.exe
+[2019.11.25-23.59.53:723][807]LogPython: 
+
+[2019.11.26-00.01.42:387][213]BlueprintLog: New page: Compile BP_ExecutePython
+[2019.11.26-00.01.42:504][213]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2019.11.26-00.02.11:074][201]BlueprintLog: New page: Compile BP_ExecutePython
+[2019.11.26-00.02.11:185][201]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2019.11.26-00.02.11:618][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ExecutePython" FILE="../../../../../../Git/UEGym/BasicScripting/Content/BP_ExecutePython.uasset" SILENT=true
+[2019.11.26-00.02.11:633][250]LogSavePackage: Moving '../../../../../../Git/UEGym/BasicScripting/Saved/BP_ExecutePython0FF335274EB8CB4B51E48786915212B9.tmp' to '../../../../../../Git/UEGym/BasicScripting/Content/BP_ExecutePython.uasset'
+[2019.11.26-00.02.32:764][558]LogPython: del bat
+[2019.11.26-00.03.51:003][349]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2019.11.26-00.03.51:008][349]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L_Test1" FILE="../../../../../../Git/UEGym/BasicScripting/Saved/Autosaves/Game/L_Test1_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.11.26-00.03.51:114][349]LogSavePackage: Moving '../../../../../../Git/UEGym/BasicScripting/Saved/L_Test1_Auto4825FE62B4445882A5F3BD3AD670D8F6A.tmp' to '../../../../../../Git/UEGym/BasicScripting/Saved/Autosaves/Game/L_Test1_Auto4.umap'
+[2019.11.26-00.03.51:116][349]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/L_Test1' took 0.139
+[2019.11.26-00.03.51:116][349]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.139
+[2019.11.26-00.12.10:409][969]LogEditorViewport: Clicking Background
+[2019.11.26-00.12.12:683][240]LogSlate: FSceneViewport::OnFocusLost() reason 0

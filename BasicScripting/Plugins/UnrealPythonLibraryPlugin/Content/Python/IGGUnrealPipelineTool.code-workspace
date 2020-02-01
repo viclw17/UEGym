@@ -2,6 +2,9 @@
     "folders": [
         {
             "path": "."
+        },
+        {
+            "path": "D:\\Git\\UEGym\\BasicScripting\\Content\\Python"
         }
     ]
 }
